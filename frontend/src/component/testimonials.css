@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+
+.testimonials-box {
+    width: 1300px;
+    height: 898px;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center; 
+    /* position: relative; */
+    max-width: calc(100% - 600px);
+    margin: 0 auto;
+    
+}
+
+.testimonials-pic{
+    margin-left: 70px;
+    width: 406px;
+height: 614px;
+
+}
+
+.testimonials-pic img {
+    width: 100%;  /* Make image take full width of the container */
+    height: 100%; /* Make image take full height of the container */
+    object-fit: cover; /* Ensures the image covers the box while maintaining aspect ratio */
+}
+
+
+.testimonials-content-box{
+    margin-left: 100px;
+width: 650px;
+height: 500px;
+}
+
+.testimonials-content-heading-box{
+    width: 650px;
+    height: 400px;
+    
+
+}
+
+.testimonials-content-heading1{
+    width: 131px;
+height: 21px;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.13px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #EF233C;
+
+}
+
+.testimonials-content-heading2{
+    width: 605px;
+    height: 56px;
+    font-family: Raleway;
+font-size: 48px;
+font-weight: 600;
+line-height: 56.35px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #303030;
+}
+
+.testimonials-content-heading3{
+    margin-top: 100px;
+    width: 556px;
+    height: 29px;
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29.35px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #303030;
+}
+
+
+.testimonials-quote{
+    width: 500px;
+    height: 250px;
+}
+
+.testimonials-quote text{
+    width: 556px;
+height: 29px;
+font-family: Raleway;
+font-size: 25px;
+font-weight: 400;
+line-height: 29.35px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #303030;
+}
+
+
+.testimonials-quote img{
+    margin-top: 20px;
+    border-radius: 100%;
+width: 83px;
+height: 83px;
+}
+
+.test-photo ul {
+    display: flex;
+}
+
+.test-photo-name{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 180px;
+    height: 70px;
+}
+
+.span1{
+    width: 148px;
+height: 29px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 29.05px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #EF233C;
+}
+
+.span2{
+    width: 123px;
+height: 22px;
+
+font-family: Nunito;
+font-size: 16px;
+font-weight: 500;
+line-height: 21.82px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #303030;
+
+}
+
+.mySwiper .swiper-pagination {
+    position: relative; /* Change from absolute to relative */
+    top: -550px; /* Move it up */
+    text-align: center;
+}
+
+

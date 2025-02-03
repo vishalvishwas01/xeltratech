@@ -117,6 +117,7 @@ function Featuredservices() {
                 <div className="choose-body-box">
                     <h4 className="choose-body-header1">OUR BENEFITS</h4>
                     <h2 className="choose-body-header2">Why Should Choose Us?</h2>
+                    <div className="choose-body-why-main-box">
                     <div className="choose-body-why-box">
                         <div className="choose-body-why">
                                 <ul>
@@ -149,10 +150,13 @@ function Featuredservices() {
                                     </li>
                                 </ul>
                             </div>
+                            
+                    </div>
+                    
                     </div>
                 </div>
-                {/* <div className="whychoosebanner"><img src={whychooseusbanner}/></div> */}
                 <div className="whychoosebanner"><img src={whychooseusbanner}/></div>
+                
             </div>
             {/* Why Choose Us End */}
         </>

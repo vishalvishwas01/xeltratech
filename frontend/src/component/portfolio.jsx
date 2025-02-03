@@ -21,13 +21,18 @@ function Portfolio() {
                 <div className="swiper-box">
                     {/* Swiper Component */}
                     <Swiper
-                        slidesPerView={3}
-                        spaceBetween={30}
+                        slidesPerView={1}
+                        breakpoints={{
+                            768: { slidesPerView: 2, spaceBetween: 20 }, // Tablets
+                            1024: { slidesPerView: 3, spaceBetween: 30 }, // Desktops
+                        }}
+                        spaceBetween={20}
                         pagination={{ clickable: true }}
-                        autoplay={{ delay: 1000, disableOnInteraction: false }}
+                        autoplay={{ delay: 2000, disableOnInteraction: false }}
                         modules={[Pagination, Autoplay]}
                         className="mySwiper-portfolio"
-                    >
+>
+
                         <SwiperSlide className="SEO">
                             <div className="SEO-overlay">
                                 <div className="SEO-text1">SEO OPTIMIZATION</div>
@@ -50,11 +55,6 @@ function Portfolio() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>Slide 4</SwiperSlide>
-                        <SwiperSlide>Slide 5</SwiperSlide>
-                        <SwiperSlide>Slide 6</SwiperSlide>
-                        <SwiperSlide>Slide 7</SwiperSlide>
-                        <SwiperSlide>Slide 8</SwiperSlide>
-                        <SwiperSlide>Slide 9</SwiperSlide>
                     </Swiper>
                 </div>
             </div>

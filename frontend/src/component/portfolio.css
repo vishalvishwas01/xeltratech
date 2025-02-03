@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
+@media (max-width:900px) {
+ 
+.portfolio-body{
+    height: 700px;   
+}   
+}
+
+
+@media (max-width:600px) {
+ 
+    .portfolio-body{
+        height: 600px;   
+    }   
+    }
+    
+
 .portfolio-box {
     width: 1200px;
     height: 898px;
@@ -12,6 +28,7 @@
     margin: 0 auto;
     padding-top: 60px; /* Creates space at the top */
     margin-left: 380px;
+    /* background-color: #ED1C24; */
     
 }
 
@@ -81,7 +98,7 @@
 .mySwiper-portfolio {
     width: 1256px; /* Adjust as needed */
     height: 597px; /* Adjust this height as needed */
-    overflow: hidden;
+    overflow: visible;
 }
 
 
@@ -220,3 +237,110 @@
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
     pointer-events: none; /* Ensures clicks pass through */
 }
+
+
+@media (max-width: 1200px) {
+    .portfolio-box {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .portfolio-heading1 {
+        font-size: 16px;
+    }
+
+    .portfolio-heading2-text1, .portfolio-heading2-text2 {
+        font-size: 40px;
+        width: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .swiper-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .mySwiper-portfolio {
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .SEO, .data, .web {
+        width: 100% !important;
+        height: 400px;
+        background-size: cover;
+    }
+
+    .SEO-text1 {
+        font-size: 20px;
+        top: 50%;
+    }
+
+    .SEO-text2 {
+        width: 80%;
+        font-size: 14px;
+        top: 65%;
+    }
+
+    .SEO-text3 {
+        top: 80%;
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio-heading2-text1, .portfolio-heading2-text2 {
+        font-size: 30px;
+    }
+
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .SEO, .data, .web {
+        height: 300px;
+    }
+
+    .SEO-text1 {
+        font-size: 18px;
+        top: 45%;
+    }
+
+    .SEO-text2 {
+        font-size: 12px;
+        top: 60%;
+    }
+
+    .SEO-text3 {
+        font-size: 12px;
+        height: 35px;
+    }
+}
+
+
+/* Adjust pagination position */
+.mySwiper-portfolio .swiper-pagination {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 900px) {
+    .mySwiper-portfolio .swiper-pagination{
+        bottom: 150px; /* Reduce space below slides */
+    }
+}
+
+@media (max-width: 600px) {
+    .mySwiper-portfolio .swiper-pagination{
+        bottom: 250px; /* Reduce space below slides */
+    }
+}
+

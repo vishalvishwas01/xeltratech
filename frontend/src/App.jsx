@@ -16,10 +16,10 @@ function App() {
 
   return (
     <div className="navbar1">
-      <Header/>
+      {/* <Header/> */}
       <Featuredservices />
       <Portfolio />
-      <Developmentprocess />
+      {/* <Developmentprocess /> */}
       <Testimonials/>
       <Clients/>
       <Footer/>

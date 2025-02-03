@@ -30,6 +30,7 @@ function testimonials() {
         <div className='testimonials-content-heading1'>TESTIMONIALS</div>
         
               <div className='testimonials-content-heading2'>What Clients Say About Us </div>
+              <div className="testimonials-content-heading-picture"><img src={testimonials_pic}/></div>
               <div className='testimonials-content-heading-box'>
               <div className='testimonials-content-heading3'>
 

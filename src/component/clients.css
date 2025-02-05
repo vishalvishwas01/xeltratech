@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+.clients-body {
+    width: 100%;
+    height: 370px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: center;  /* Center items horizontally */
+    justify-content: center;  /* Center items vertically */
+}
+
+
+.clients-heading1 {
+    width: fit-content;  /* Adjust width to fit content dynamically */
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;  /* Centers the text */
+    color: #EF233C;
+    margin-top: 15px;
+    padding: 5px; /* Add padding for better spacing */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center horizontally */
+    height: 130px;
+}
+
+.clients-heading1 span {
+    width: 100%; /* Make it as wide as the parent */
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center; /* Centers text inside the span */
+    color: #303030;
+    display: block;
+    margin-top: 5px; /* Add space between "Clients" and "Our Clients" */
+}
+
+.clients-list{
+    width: screen;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.clients-list ul{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+
+.mySwiper .SwiperSlide{
+    width: 10px;
+    
+}
+.mySwiper img{
+    height: 100px;
+    width: 120px;
+}

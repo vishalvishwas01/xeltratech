@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-main{
+    background-color: black;
+}
+.header img{
+    width: 255px;
+height: 92px;
+
+}
+
+.mySwiper{
+    width: screen;
+    height: 500px;
+}
+
+
+
+.navbar1{
+    width: screen;
+    overflow: hidden;
+}
+.navbar {
+    position: absolute; /* Keep navbar fixed over slides */
+    width: 100%; /* Ensure full width */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 5%;
+    z-index: 10; /* Ensure it stays above the slides */
+    
+}
+
+.navmenu ul {
+    color: white;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+
+
+
+@media (max-width:1500px){
+    .navmenu ul{
+        display: none;
+    }
+}
+
+.navmenu-btn{
+    width: 50px;
+}
+
+.navmenu-btn:hover{
+    cursor:grab;
+}
+
+@media (min-width:1500px){
+    .navmenu-btn{
+        display: none;
+    }
+}
+
+.navmenu ul li {
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+/* Hover Effect - Color Change */
+.navmenu ul li:hover {
+    color: red;
+}
+
+/* Underline Animation */
+.navmenu ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: red;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Expand Underline on Hover */
+.navmenu ul li:hover::after {
+    width: 100%;
+}
+
+
+/* Make the offcanvas background transparent */
+.offcanvas-transparent {
+    background: rgba(0, 0, 0, 0.1); /* Dark background with 70% opacity */
+    backdrop-filter: blur(10px); /* Optional: Adds a blur effect */
+    color: white; /* Ensures text remains readable */
+  
+}
+
+/* Ensure the close button is visible with a contrasting color */
+.offcanvas-transparent .text-reset {
+    background-color: white !important;  /* Change to any color you prefer */
+}
+
+/* Set custom width for offcanvas */
+.offcanvas-custom-width {
+    width: 200px !important;  /* Adjust the width as needed */
+}
+
+.offcanvas-navmenu a {
+    text-decoration: none; /* Removes the underline */
+    color: white; /* Changes the color to white */
+    font-size: 25px;
+    line-height: 50px;
+  }
+  
+
+
+  .offcanvas-navmenu a {
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+/* Hover Effect - Color Change */
+.offcanvas-navmenu a:hover {
+    color: red;
+}
+
+/* Underline Animation */
+.offcanvas-navmenu a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: red;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Expand Underline on Hover */
+.offcanvas-navmenu a:hover::after {
+    width: 100%;
+}
+.offcanvas-navmenu a:hover {
+    color: rgb(167, 13, 13); /* Ensures the color remains white on hover */
+  }
+  
+
+
+/* .banner-slider1 {
+    background-image: url("./images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 100%;  
+   
+} */
+
+.banner-slider1 {
+    width: screen;
+    height: 100%; /* Ensure it has a set height */
+    align-items: center;
+    position: relative;
+}
+
+.banner-slider1 img{
+    position: absolute;
+    width: 100% !important;
+    height: 800px !important;
+    object-fit: contain; 
+    
+    
+}
+
+
+.banner-slider1-content{
+    width: 614px;
+    height: 434px;
+    margin-top: 200px;
+    margin-left: 150px;
+    position: relative;
+}
+
+@media (max-width:1200px){
+    .banner-slider1-content{
+        width: 500px;
+        height: 400px;
+        margin-top: 200px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width:1024px){
+    .banner-slider1-content{
+        width: 450px;
+        height: 400px;
+        margin-top: 200px;
+        margin-left: 150px;
+        position: relative;
+        
+    }
+}
+
+
+@media (max-width:800px){
+    .banner-slider1-content{
+        width: 370px;
+        height: 400px;
+        margin-top: 200px;
+        margin-left: 20px;
+      
+    }
+}
+
+.banner-slider1-content-text1{
+    width: 227px;
+height: 21px;
+font-family: Plus Jakarta Sans;
+font-size: 17px;
+font-weight: 400;
+line-height: 21.42px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+text-decoration: underline;
+text-underline-offset: 10px;
+position: relative;
+}
+
+
+.banner-slider1-content-text2{
+    width: 587px;
+height: 63px;
+font-family: Plus Jakarta Sans;
+font-size: 50px;
+font-weight: 700;
+line-height: 63px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+margin-top: 20px;
+position: relative;
+}
+
+
+@media (max-width:1200px){
+    .banner-slider1-content-text2{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1024px){
+    .banner-slider1-content-text2{
+        font-size: 36px;
+        line-height: 80px;
+    }
+}
+
+@media (max-width:800px){
+    .banner-slider1-content-text2{
+        font-size: 30px;
+        line-height: 80px;
+    }
+}
+
+.banner-slider1-content-text4{
+    width: 614px;
+height: 63px;
+font-family: Plus Jakarta Sans;
+font-size: 50px;
+font-weight: 400;
+line-height: 63px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+position: relative;
+}
+
+@media (max-width:1200px){
+    .banner-slider1-content-text4{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1024px){
+    .banner-slider1-content-text4{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:800px){
+    .banner-slider1-content-text4{
+        font-size: 28px;
+    }
+}
+
+.banner-slider1-content-text5{
+    width: 500px;
+    height: 24px;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.38px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+margin-top: 20px;
+position: relative;
+}
+
+@media (max-width:1200px){
+    .banner-slider1-content-text5{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1024px){
+    .banner-slider1-content-text5{
+        width: 420px;
+        
+    }
+}
+
+@media (max-width:800px){
+    .banner-slider1-content-text5{
+        width: 400px;
+    }
+}
+
+
+/* Button Styling */
+.banner-slider1-content-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: 3px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    width: 190px;
+    height: 58px;
+    position: relative;
+}
+
+@media (max-width:1200px){
+    .banner-slider1-content-btn{
+        margin-top: 50px;
+        
+    }
+}
+
+@media (max-width:800px){
+    .banner-slider1-content-btn{
+        margin-top: 80px;
+        
+    }
+}
+
+
+/* Hover Effect */
+.banner-slider1-content-btn:hover {
+  
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.banner-slider2 {
+    background-image: url("./images/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto; /* Ensures width fits, height adjusts */
+    background-position: center;
+    width: 100vw;
+    max-height: 800px;  /* Limits max height */
+}
+
+.banner-slider3 {
+    background-image: url("./images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto; /* Ensures width fits, height adjusts */
+    background-position: center;
+    width: 100vw;
+    max-height: 800px;  /* Limits max height */
+}
+
+
+
+.mySwiper{
+    height: 800px;
+}
+

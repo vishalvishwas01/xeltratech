@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+@media (max-width:900px) {
+ 
+.portfolio-body{
+    height: 700px;   
+}   
+}
+
+
+@media (max-width:600px) {
+ 
+    .portfolio-body{
+        height: 600px;   
+    }   
+    }
+    
+
+.portfolio-box {
+    width: 1200px;
+    height: 898px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    position: relative;
+    max-width: calc(100% - 600px);
+    margin: 0 auto;
+    padding-top: 60px; /* Creates space at the top */
+    margin-left: 380px;
+    /* background-color: #ED1C24; */
+    
+}
+
+.portfolio-heading1 {
+    width: 154px;
+    height: 23px;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    text-align: center;
+    color: #ED1C24;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+
+    position: relative; /* Change from absolute to relative */
+}
+
+.portfolio-heading2-box {
+    width: 543px;
+    height: 127px;  
+    margin-top: 30px; /* Adjust spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers horizontally */
+    justify-content: flex-start; /* Aligns content to the top */
+    position: relative;
+}
+
+.portfolio-heading2-text1 {
+    width: 397px;
+    height: 59px;
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    text-align: center; /* Ensures text is centered */
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+
+.portfolio-heading2-text2{
+    width: 543px;
+    height: 59px;
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    text-align: center; /* Ensures text is centered */
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.portfolio-heading2-text2 span{
+    color: #ED1C24;
+
+}
+
+.swiper-box{
+    width: 1256px;
+    height: 597px;
+}
+
+.mySwiper-portfolio {
+    width: 1256px; /* Adjust as needed */
+    height: 597px; /* Adjust this height as needed */
+    overflow: hidden;
+
+}
+
+
+
+.swiper-slide img {
+    width: 404px;
+    height: 597px;
+    object-fit: cover; /* Use 'contain' if you want to fit the image fully */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.SEO {
+    position: relative;
+    width: 404px;
+    height: 597px;
+    background-image: url("./images/SEO.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* Adding a dark gradient overlay */
+.SEO::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    pointer-events: none; /* Ensures clicks pass through */
+}
+
+.SEO-text1 {
+    position: absolute;
+    width: 240px;
+    top: 60%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text exactly */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2; /* Ensures the text is above the image */
+}
+
+.SEO-text2 {
+    position: absolute;
+    top: 80%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text exactly */
+    text-align: center;
+    z-index: 2; /* Ensures the text is above the image */
+    width: 349px;
+    height: 44px;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration-skip-ink: none;
+}
+
+.SEO-text3 {
+    position: absolute;
+    top: 90%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text exactly */
+    text-align: center;
+    z-index: 2; /* Ensures the text is above the image */
+    width: 150px;
+    height: 50px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15.12px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.SEO-text3:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+
+.SEO-text3 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* You can adjust the color if needed */
+}
+
+.SEO-text3 a:hover {
+    text-decoration: none; /* Optional: Add underline on hover */
+    color: #000000;
+}
+
+
+
+.data {
+    position: relative;
+    width: 404px;
+    height: 597px;
+    background-image: url("./images/data.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.data::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    pointer-events: none; /* Ensures clicks pass through */
+}
+
+.web {
+    position: relative;
+    width: 404px;
+    height: 597px;
+    background-image: url("./images/web.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.web::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    pointer-events: none; /* Ensures clicks pass through */
+}
+
+
+@media (max-width: 1200px) {
+    .portfolio-box {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .portfolio-heading1 {
+        font-size: 16px;
+    }
+
+    .portfolio-heading2-text1, .portfolio-heading2-text2 {
+        font-size: 40px;
+        width: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .swiper-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .mySwiper-portfolio {
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .SEO, .data, .web {
+        width: 100% !important;
+        height: 400px;
+        background-size: cover;
+    }
+
+    .SEO-text1 {
+        font-size: 20px;
+        top: 50%;
+    }
+
+    .SEO-text2 {
+        width: 80%;
+        font-size: 14px;
+        top: 65%;
+    }
+
+    .SEO-text3 {
+        top: 80%;
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio-heading2-text1, .portfolio-heading2-text2 {
+        font-size: 30px;
+    }
+
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .SEO, .data, .web {
+        height: 300px;
+    }
+
+    .SEO-text1 {
+        font-size: 18px;
+        top: 45%;
+    }
+
+    .SEO-text2 {
+        font-size: 12px;
+        top: 60%;
+    }
+
+    .SEO-text3 {
+        font-size: 12px;
+        height: 35px;
+    }
+}
+
+
+/* Adjust pagination position */
+.mySwiper-portfolio .swiper-pagination {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 900px) {
+    .mySwiper-portfolio .swiper-pagination{
+        bottom: 150px; /* Reduce space below slides */
+    }
+}
+
+@media (max-width: 600px) {
+    .mySwiper-portfolio .swiper-pagination{
+        bottom: 250px; /* Reduce space below slides */
+    }
+}
+

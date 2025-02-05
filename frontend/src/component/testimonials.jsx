@@ -74,7 +74,21 @@ function testimonials() {
                     
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
+                <SwiperSlide>
+                <div className="testimonials-quote">
+                    <text>This Shirt Is So Soft And Comfortable. I Was A Bit Worried About The Size Running Small, But I Normally Wear A Medium And It Fits Great.</text>
+                    <div className="test-photo">
+                    <ul>
+                      <li><img src={testimonial1}/></li>
+                      <li><div className="test-photo-name"><div className="span1">Brian Perkins</div>
+                                                          <div className="span2">Human Resource</div>
+                          
+                          </div></li>
+                    </ul>
+                    </div>
+                    
+                    </div>
+                </SwiperSlide>
               </Swiper>
 
 

@@ -6,20 +6,26 @@ import Featuredservices from "./component/featuredservices";
 import Header from "./component/header"
 import Portfolio from "./component/portfolio";
 import './component/header.css';
-import Developmentprocess from "./component/Developmentprocess"
+import Wecando from "./component/wecando"
 import Testimonials from "./component/testimonials";
 import Clients from "./component/clients";
 import Footer from "./component/footer";
+import Chooseus from "./component/chooseus";
+import Development from "./component/developmentprocess";
+
+// import Development from "./component/development";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="navbar1">
-      {/* <Header/> */}
+      <Header/>
       <Featuredservices />
+      <Chooseus/>
       <Portfolio />
-      {/* <Developmentprocess /> */}
+      <Wecando />
+      <Development/>
       <Testimonials/>
       <Clients/>
       <Footer/>

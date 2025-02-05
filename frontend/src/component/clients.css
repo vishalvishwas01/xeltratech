@@ -39,12 +39,19 @@
 }
 
 .clients-list{
-    width: 1500px;
+    width: 800px;
     height: 100px;
+  
 }
 
-.clients-list ul{
-    display: flex;
-    gap: 200px;
-    align-items: center;
+
+
+
+.mySwiper .SwiperSlide{
+    width: 10px;
+    
+}
+.mySwiper img{
+    height: 100px;
+    width: 120px;
 }

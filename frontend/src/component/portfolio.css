@@ -98,7 +98,8 @@
 .mySwiper-portfolio {
     width: 1256px; /* Adjust as needed */
     height: 597px; /* Adjust this height as needed */
-    overflow: visible;
+    overflow: hidden;
+
 }
 
 
@@ -186,12 +187,25 @@
     justify-content: center;
     align-items: center;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 .SEO-text3:hover{
     background-color: #FFFFFF;
     color: #000000;
 }
+
+
+.SEO-text3 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* You can adjust the color if needed */
+}
+
+.SEO-text3 a:hover {
+    text-decoration: none; /* Optional: Add underline on hover */
+    color: #000000;
+}
+
 
 
 .data {

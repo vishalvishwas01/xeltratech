@@ -54,7 +54,20 @@ function Portfolio() {
                                 <div className="SEO-text3"><a href="#">LEARN MORE</a></div>
                             </div>
                         </SwiperSlide>
-                        <SwiperSlide>Slide 4</SwiperSlide>
+                        <SwiperSlide className="web">
+                            <div className="SEO-overlay">
+                                <div className="SEO-text1">WEB DEVELOPMENT</div>
+                                <div className="SEO-text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</div>
+                                <div className="SEO-text3"><a href="#">LEARN MORE</a></div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide className="web">
+                            <div className="SEO-overlay">
+                                <div className="SEO-text1">WEB DEVELOPMENT</div>
+                                <div className="SEO-text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</div>
+                                <div className="SEO-text3"><a href="#">LEARN MORE</a></div>
+                            </div>
+                        </SwiperSlide>
                     </Swiper>
                 </div>
             </div>

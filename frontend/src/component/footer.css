@@ -76,7 +76,14 @@
     font-size: 17px;
     font-weight: 400;
     transition: color 0.5s ease-in-out;
+    text-decoration: none;
 }
+.footer-right1 ul li{
+    transition: color 0.5s ease-in-out;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 
 .footer-right1 ul li:hover{
     color: red;

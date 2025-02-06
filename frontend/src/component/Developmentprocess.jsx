@@ -1,5 +1,4 @@
 import './developmentprocess.css'
-
 import React from 'react'
 import UI from './images/UI.svg'
 import prototype from './images/prototype.svg'
@@ -22,14 +21,17 @@ function Developmentprocess() {
                 <div className='dp-content-body'>
                         <div className='dp-content-box'>
                             <div className='dp-content'>
-                                <img src={UI}/>
-                                <img src={prototype}/>
-                                <img src={development}/>
-                                <img src={discover}/>
-                                <img src={quality}/>
-                                <img src={deployment}/>
-                                <img src={supoortm} />
+                                <ul>
+                                        <li className='UI'><img src={UI}/></li>
+                                        <li><img src={prototype}/></li>
+                                        <li><img src={development}/></li>
+                                        <li><img src={discover}/></li>
+                                        <li><img src={quality}/></li>
+                                        <li><img src={deployment}/></li>
+                                        <li style={{ width: "265px", height: "128px", marginTop: "9px" }}><img src={supoortm}/></li>
 
+
+                                </ul>
                             </div>
                         </div>
 

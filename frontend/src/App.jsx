@@ -12,8 +12,7 @@ import Clients from "./component/clients";
 import Footer from "./component/footer";
 import Chooseus from "./component/chooseus";
 import Development from "./component/developmentprocess";
-
-// import Development from "./component/development";
+import Footer1 from "./component/footer1";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,7 +27,8 @@ function App() {
       <Development/>
       <Testimonials/>
       <Clients/>
-      <Footer/>
+      <Footer1/>
+      {/* <Footer/> */}
     </div>
   );
 }

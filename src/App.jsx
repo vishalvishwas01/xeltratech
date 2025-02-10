@@ -9,16 +9,19 @@ import './component/header.css';
 import Wecando from "./component/wecando"
 import Testimonials from "./component/testimonials";
 import Clients from "./component/clients";
-import Footer from "./component/footer";
+// import Footer from "./component/footer";
 import Chooseus from "./component/chooseus";
 import Development from "./component/developmentprocess";
 import Footer1 from "./component/footer1";
+
+
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="navbar1">
+     
       <Header/>
       <Featuredservices />
       <Chooseus/>
@@ -29,6 +32,7 @@ function App() {
       <Clients/>
       <Footer1/>
       {/* <Footer/> */}
+      
     </div>
   );
 }

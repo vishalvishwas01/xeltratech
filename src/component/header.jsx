@@ -19,6 +19,10 @@ import banner from './images/banner.jpg';
 import banner1 from './images/banner1.jpg';
 import banner2 from './images/banner2.jpg';
 import menu from './images/menu.svg';
+import Example from "./cards/Example";
+
+
+// import "./style.css";
 
 function Header() {
     const [visible, setVisible] = useState(false);
@@ -28,16 +32,25 @@ function Header() {
         <>
             <div className='navbar'>
                 <img src={logo1} alt='Xeltratech' />
+                <div className='navmenu-latest'>
+
+                    <ul>
+                        <li ><a className='menu1'>Home</a></li>
+                        <li><a className='menu1'>About Us</a></li>
+                        <li><Example/></li>
+                        <li><Example/></li>
+                        <li><a  className='menu1'>Careers</a></li>
+                        <li><a  className='menu1'>Contact Us</a></li>
+                    </ul>
+                    {/* <a>Home</a>
+                    <Example/>
+                    <Example/> */}
+                </div>
+               
                 <div className='navmenu'>
-                <ul>
-                                    <li>Home</li>
-                                    <li>About</li>
-                                    <li>Services</li>
-                                    <li>Portfolio</li>
-                                    <li>Packages</li>
-                                    <li>Careers</li>
-                                    <li>Contact Us</li>
-                                </ul>
+                    
+                            
+                            
                     <div className='navmenu-btn'>
                         <CButton color="primary" onClick={() => setVisible(true)}>
                             <img src={menu} alt="Menu" />
@@ -62,6 +75,7 @@ function Header() {
                     </div>
                 </div>
             </div>
+            
 
             <Swiper
                 cssMode={true}
@@ -107,6 +121,7 @@ function Header() {
                 </SwiperSlide>
             </Swiper>
         </>
+        
         </div>
     );
 }

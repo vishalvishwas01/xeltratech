@@ -10,25 +10,19 @@
     
     background-color: black;
 }
-.header img{
-    width: 255px;
-height: 92px;
-
-}
 
 .mySwiper{
     width: screen;
     height: 500px;
 }
 
-
-
-.navbar1{
-    width: screen;
-    overflow: hidden;
+.logo1{
+    width: 180px;
+    height: 60px;
 }
+
 .navbar {
-    position: absolute; /* Keep navbar fixed over slides */
+    position: fixed; /* Keep navbar fixed over slides */
     width: 100%; /* Ensure full width */
     display: flex;
     align-items: center;
@@ -36,30 +30,36 @@ height: 92px;
     padding: 25px 5%;
     z-index: 10; /* Ensure it stays above the slides */
     
-}
-
-.navmenu ul {
-    color: white;
-    display: flex;
-    gap: 40px;
-    list-style: none;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-    margin-right: 10px;
-    border: 2px solid red;
-    list-style-type: none;
     
 }
 
+
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.432);
+    
+}
+
+
+
 .services-box{
-    display: flexbox
+    display: flexbox;
+    
 }
 
 
 
 @media (max-width:1500px){
-    .navmenu ul{
+    .navmenu-latest ul{
+        display: none;
+    }
+}
+
+@media (max-width:1500px){
+    .navmenu-latest{
         display: none;
     }
 }
@@ -78,9 +78,10 @@ height: 92px;
     }
 }
 
-.navmenu ul li {
+/* .navmenu ul li {
     position: relative;
     cursor: pointer;
+    
     
 }
 
@@ -103,13 +104,15 @@ height: 92px;
 
 .navmenu ul li:hover::after {
     width: 100%;
-}
+} */
 
 
 .navmenu-latest{
     height: 45px;
     width: 1000px;
     margin-right: -500px;
+    
+    
 }
 
 .menu1{
@@ -117,25 +120,194 @@ height: 92px;
     font-size: 24px ;
     gap: 20px;
     text-decoration: none;
+    
 }
 .navmenu-latest ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    list-style: none;
+    color:#FFFFFF;
+    
+}
+
+.navmenu-latest ul li{
+    display: inline-block;
+    font-size: 22px;
+    padding-inline: 20px;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    
+}
+
+
+
+.navmenu-latest ul li:hover {
+    color: rgb(255, 0, 0);
+}
+
+.dropdown-services {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, visibility 0.3s;
+    position: absolute;
+    
+}
+
+.navmenu-latest ul li:hover .dropdown-services {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-services ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    padding-block: 10px;
+    width: 320px;
+    
+}
+
+
+
+.dropdown-services ul li{
+    
+    
+    border: 20px;
+    display: block;
+    color: black;
+    width:290px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    
+}
+
+.services-arrow1 {
+    
+    position: absolute;
+    transform: translate(240px, -25px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.dropdown-services ul li:hover .services-arrow1 {
+    transform: translate(250px, -25px); /* Moves 10px forward */
+}
+
+
+.services-arrow2{
+    position: absolute;
+    transform: translate(240px, -25px);
+    transition: transform 0.3s ease-in-out;
+}
+.dropdown-services ul li:hover .services-arrow2 {
+    transform: translate(250px, -25px); /* Moves 10px forward */
+}
+
+.services-arrow3{
+    position: absolute;
+    transform: translate(240px, -25px);
+    transition: transform 0.3s ease-in-out;
+}
+.dropdown-services ul li:hover .services-arrow3 {
+    transform: translate(250px, -25px); /* Moves 10px forward */
+}
+
+.services-arrow4{
+    position: absolute;
+    transform: translate(240px, -25px);
+    transition: transform 0.3s ease-in-out;
+}
+.dropdown-services ul li:hover .services-arrow4 {
+    transform: translate(250px, -25px); /* Moves 10px forward */
+}
+
+.dropdown-services ul li:hover {
+    transform: scale(1);
+}
+
+.dropdown-services-submenu1 {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-5px);
+    transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out, visibility 0.3s;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: -48px;
+    
+}
+
+.dropdown-services ul li:hover .dropdown-services-submenu1 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.dropdown-services-submenu1 ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    
 }
 
 
 /* services drop down end */
 
+/* packages drop down start */
+.dropdown-packages {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, visibility 0.3s;
+    position: absolute;
+    
+}
 
+.navmenu-latest ul li:hover .dropdown-packages {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-packages ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    padding-block: 20px;
+    width: 350px;
+}
+
+
+
+.dropdown-packages ul li{
+    
+    
+    border: 20px;
+    display: block;
+    color: black;
+    width:350px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    padding-block: 5px;
+    
+}
+
+.dropdown-packages ul li:hover {
+    transform: scale(1);
+}
+/* packages drop down end */
 
 /* Make the offcanvas background transparent */
 .offcanvas-transparent {
     background: rgba(0, 0, 0, 0.1); /* Dark background with 70% opacity */
     backdrop-filter: blur(10px); /* Optional: Adds a blur effect */
     color: white; /* Ensures text remains readable */
-  
 }
 
 /* Ensure the close button is visible with a contrasting color */
@@ -204,6 +376,7 @@ height: 92px;
     height: 100%; /* Ensure it has a set height */
     align-items: center;
     position: relative;
+    
 }
 
 .banner-slider1 img{
@@ -211,6 +384,7 @@ height: 92px;
     width: 100% !important;
     height: 800px !important;
     object-fit: contain; 
+
     
     
 }
@@ -442,7 +616,6 @@ position: relative;
 }
 
 .navmenu-box{
-    border: 2px solid red;
     height: 60px;
     width: 800px;
 }

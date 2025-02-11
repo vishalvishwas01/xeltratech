@@ -14,7 +14,8 @@ body {
 }
 
 .wecando-box{
-    width: screen;
+    width: 100%;
+    
 }
 
 .wecando-body{
@@ -47,7 +48,7 @@ body {
 .wecando-header1{
     display: flex;
     justify-content: center;
-    width: 1200px;
+    width: 100% !important;
     height: 80px;
 }
 
@@ -116,10 +117,11 @@ body {
 }
 
 .wecando-header2{
-    width: 812px;
+    width: 100% !important;
     height: 22px;
     display: flex;
     justify-content: center;
+    
 }
 
 .wecando-header2 h2{
@@ -234,7 +236,15 @@ text-decoration-skip-ink: none;
     justify-content: center;
     gap: 30px;
     animation: fadeIn 0.5s ease-in-out 1s forwards;
-    width: 1200px;
+    width: 100% !important;
+}
+
+@media (min-width: 1610px) {
+    .wecando-header-menu {
+        width: 80%!important;
+        
+    
+    }
 }
 
 @media (max-width: 1360px) {
@@ -282,7 +292,7 @@ text-decoration-skip-ink: none;
     opacity: 0;
     animation: fadeIn 1s ease-in-out 1s forwards;
     padding-top: 50px;
-
+margin-top: 20px;
 }
 
 @media (max-width: 390px) {

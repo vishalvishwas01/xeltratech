@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
+
 @media (max-width:900px) {
- 
 .portfolio-body{
     height: 700px;   
 }   
@@ -18,17 +18,19 @@
     
 
 .portfolio-box {
-    width: 1200px;
+    width: 60%;
     height: 898px;
     display: flex;
     flex-direction: column;
     align-items: center; /* Centers content horizontally */
     position: relative;
-    max-width: calc(100% - 600px);
     margin: 0 auto;
     padding-top: 60px; /* Creates space at the top */
-    margin-left: 380px;
+    
+    
     /* background-color: #ED1C24; */
+    
+   
     
 }
 
@@ -58,6 +60,18 @@
     position: relative;
 }
 
+@media (max-width:700px){
+    .portfolio-heading2-box{
+        width: 400px;
+    }
+}
+
+@media (max-width:550px){
+    .portfolio-heading2-box{
+        width: 300px;
+    }
+}
+
 .portfolio-heading2-text1 {
     width: 397px;
     height: 59px;
@@ -71,7 +85,17 @@
     color: #000000;
 }
 
+@media (max-width:700px){
+    .portfolio-heading2-text1{
+        font-size: 30px !important;
+    }
+}
 
+@media (max-width:550px){
+    .portfolio-heading2-text1{
+        font-size: 20px !important;
+    }
+}
 .portfolio-heading2-text2{
     width: 543px;
     height: 59px;
@@ -85,6 +109,19 @@
     color: #000000;
 }
 
+@media (max-width:700px){
+    .portfolio-heading2-text2{
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width:550px){
+    .portfolio-heading2-text2{
+        font-size: 25px !important;
+        line-height: 30px;
+    }
+}
+
 .portfolio-heading2-text2 span{
     color: #ED1C24;
 
@@ -93,13 +130,13 @@
 .swiper-box{
     width: 1256px;
     height: 597px;
+    
 }
 
 .mySwiper-portfolio {
-    width: 1256px; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
     height: 597px; /* Adjust this height as needed */
     overflow: hidden;
-
 }
 
 
@@ -253,11 +290,11 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     .portfolio-box {
-        max-width: 90%;
+        max-width: 100%;
         margin: 0 auto;
-        padding: 20px;
+        
     }
 
     .portfolio-heading1 {
@@ -270,9 +307,86 @@
     }
 }
 
+
+@media (max-width: 1400px) {
+    .swiper-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .mySwiper-portfolio {
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .SEO, .data, .web {
+        width: 100% !important;
+        height: 400px;
+        background-size: cover;
+    }
+
+    .SEO-text1 {
+        font-size: 20px;
+        top: 50%;
+    }
+
+    .SEO-text2 {
+        width: 80%;
+        font-size: 14px;
+        top: 65%;
+    }
+
+    .SEO-text3 {
+        top: 80%;
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+
 @media (max-width: 900px) {
     .swiper-box {
         width: 100%;
+        height: auto;
+    }
+
+    .mySwiper-portfolio {
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .SEO, .data, .web {
+        width: 100% !important;
+        height: 400px;
+        background-size: cover;
+    }
+
+    .SEO-text1 {
+        font-size: 20px;
+        top: 50%;
+    }
+
+    .SEO-text2 {
+        width: 80%;
+        font-size: 14px;
+        top: 65%;
+    }
+
+    .SEO-text3 {
+        top: 80%;
+        font-size: 14px;
+        height: 40px;
+    }
+}
+@media (max-width: 700px) {
+    .swiper-box {
+        width: 130%;
         height: auto;
     }
 

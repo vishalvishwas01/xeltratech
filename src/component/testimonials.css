@@ -12,6 +12,7 @@
     max-width: calc(100% - 600px);
     margin: 0 auto;
     
+    
    
 }
 
@@ -29,6 +30,13 @@
 height: 614px;
 
 
+}
+
+@media (max-width:520px){
+    .testimonials-pic{
+        width: 350px;
+        margin-right: 60px;
+    }
 }
 
 .testimonials-pic img {
@@ -57,6 +65,15 @@ height: 500px;
     .testimonials-content-box{
         margin-right: 250px;
     height: 850px;
+        
+    }
+}
+
+@media (max-width:520px){
+    .testimonials-content-box{
+        margin-right: 500px;
+        width: 400px;
+        
         
     }
 }
@@ -203,6 +220,7 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #303030;
+
 }
 
 @media (max-width:770px){
@@ -213,6 +231,26 @@ color: #303030;
     }
 }
 
+@media (max-width:740px){
+    
+    .testimonials-content-heading2{
+        width: 40%;
+        
+    }
+}
+
+@media (max-width:522px){
+    
+    .testimonials-content-heading2{
+        
+        width: 60%;
+        margin-left: 280px;
+        
+    }
+}
+
+
+
 .testimonials-content-heading3{
     margin-top: 100px;
     width: 556px;
@@ -222,15 +260,22 @@ color: #303030;
     font-weight: 400;
     line-height: 29.35px;
     text-align: left;
-    text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #303030;
+    
+}
+
+@media (max-width: 680px){
+    .testimonials-content-heading3{
+         width: 100%;
+    }
 }
 
 
 .testimonials-quote{
     width: 550px;
     height: 200px;
+    
 }
 
 
@@ -311,13 +356,31 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #303030;
 
+
 }
+
+.mySwiper {
+    width: 100%;
+}
+
+@media (max-width: 740px) {
+    .mySwiper{
+      width: 100%;
+      margin-top: -40px;
+      margin-right: 110px;
+      
+    }}
 
 .mySwiper .swiper-pagination {
     position: relative; /* Change from absolute to relative */
     top: -550px; /* Move it up */
     text-align: center;
 }
+@media (max-width: 740px) {
+    .mySwiper .swiper-pagination {
+      width: 100%;
+    }}
+
 
 
 @media (max-width: 768px) {

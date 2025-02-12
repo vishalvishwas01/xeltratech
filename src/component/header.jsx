@@ -44,7 +44,7 @@ function Header() {
         <div className='body-main'>
         <>
             <div className={sticky ? "navbar sticky scrolled" : "navbar"}>
-                <img src={logo1} alt='Xeltratech' />
+                <img  className='logo1' src={logo1} alt='Xeltratech' />
                 <div className='navmenu-latest'>
                     <ul>
                         <li>Home</li>

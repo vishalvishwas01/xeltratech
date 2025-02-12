@@ -133,10 +133,10 @@ text-decoration-skip-ink: none;
 }
 
 .dp-content-body{
-    margin-top: 20px;
+   
     /* border: 2px solid blue; */
     width: screen;
-    height: 640px;
+    
     display: flex;
     justify-content: center;
     
@@ -184,17 +184,18 @@ text-decoration-skip-ink: none;
     /* border: 2px solid salmon; */
     width: 100%;
     max-width: 1000px;
-    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 80px;
+    gap: 30px;
 }
 
 /* Make images responsive */
 .dp-content ul li img {
     max-width: 100%;
-    height: auto;
+    height: 7rem;
 }
 
 .dp-content ul {

@@ -3,10 +3,10 @@
 
 
 .testimonials-box {
-    width: 1600px;
+    width: 1300px;
     height: 898px;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     align-items: center; 
     /* position: relative; */
     max-width: calc(100% - 400px);
@@ -123,12 +123,12 @@ height: 500px;
 @media (min-width:1500px){
     
     .testimonials-content-heading-picture{
-        display: none !important;
+        display: none;
         
     }
 
     .testimonials-content-heading-picture img{
-        display: none !important;
+        display: none;
     }
 }
 

@@ -184,7 +184,8 @@ text-decoration-skip-ink: none;
     /* border: 2px solid salmon; */
     width: 100%;
     max-width: 1000px;
-     padding-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

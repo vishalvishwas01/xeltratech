@@ -1,0 +1,23 @@
+.image-client{
+    width: 10px;
+    height: 10px;    
+}
+.ul {
+    max-width: 70%;
+}
+
+.ul img {
+    height: 3rem;
+    width: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent inline image behavior */
+    margin: 0 auto; /* Center the image horizontally */
+    object-fit: contain; /* Or cover, depending on your preference */
+    /* Other properties you might want to add */
+    max-width: 100%; /* Prevent image from overflowing its container */
+}
+.client-box{
+    height: fit-content;
+    padding: 2rem;
+    width: screen;
+   
+}

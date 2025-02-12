@@ -109,10 +109,21 @@
 
 .navmenu-latest{
     height: 45px;
-    width: 1000px;
-    margin-right: -500px;
-    
-    
+    width: 70%;
+    margin-right: -700px; 
+}
+
+@media (max-width:1750px){
+    .navmenu-latest{
+        margin-right: -500px;
+    }
+}
+
+@media (max-width:1630px){
+    .navmenu-latest{
+        margin-right: -300px;
+        width: 80%;
+    }
 }
 
 .menu1{

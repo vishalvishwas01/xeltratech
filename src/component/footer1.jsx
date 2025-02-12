@@ -18,7 +18,7 @@ function footer1() {
     <div className='footer1-body'>
       <div className='footer1-box'>
               <div className='footer1-column1'>
-                      <img src={logo1}/>
+                      <img src={logo1} height={300} width={200}/>
                       <p>The IT industry is constantly evolving. A focus on innovation ensures the company stays ahead of the curve, develops cutting-edge solutions, and remains competitive.</p>
                       <div className='reach-us'>
                         <div className='reach-us1'><img src={pointer}/>82 Corporate Tech Park, Sector - 62, Noida</div>

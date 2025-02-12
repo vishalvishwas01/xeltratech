@@ -19,6 +19,7 @@
 .logo1{
     width: 180px;
     height: 60px;
+    margin-top: -20px;
 }
 
 .navbar {
@@ -40,6 +41,7 @@
 
 .navbar.scrolled {
     background-color: rgba(0, 0, 0, 0.432);
+    height: 80px;
     
 }
 
@@ -141,7 +143,7 @@
 
 .navmenu-latest ul li{
     display: inline-block;
-    font-size: 22px;
+    font-size: 18px;
     padding-inline: 20px;
     position: relative;
     transition: color 0.3s ease-in-out;

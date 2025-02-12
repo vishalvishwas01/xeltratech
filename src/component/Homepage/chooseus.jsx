@@ -1,10 +1,10 @@
 import "./style.css";
 import "./chooseus.css";
-import qualified from './images/qualified.svg';
-import shield from './images/shield.svg';
-import innovative from './images/innovative.svg';
-import support from './images/support.svg';
-import whychooseusbanner from './images/whychooseusbanner.jpg';
+import qualified from '../images/qualified.svg';
+import shield from '../images/shield.svg';
+import innovative from '../images/innovative.svg';
+import support from '../images/support.svg';
+import whychooseusbanner from '../images/whychooseusbanner.jpg';
 
 
 

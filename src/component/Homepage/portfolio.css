@@ -152,7 +152,7 @@
     position: relative;
     width: 404px;
     height: 597px;
-    background-image: url("./images/SEO.jpg");
+    background-image: url("../images/SEO.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -249,7 +249,7 @@
     position: relative;
     width: 404px;
     height: 597px;
-    background-image: url("./images/data.jpg");
+    background-image: url("../images/data.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -271,7 +271,7 @@
     position: relative;
     width: 404px;
     height: 597px;
-    background-image: url("./images/web.jpg");
+    background-image: url("../images/web.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 10px;

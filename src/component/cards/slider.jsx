@@ -7,12 +7,11 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import './slider.css';
-import '../clients.css'
+import '../Homepage/clients.css'
 import architect from '../../assets/connection.svg'
 import aurora from '../images/aurora.png'
 import connection from '../images/connection.png'
-import domo from '../images/domo.png'
-import marine from '../images/marine.png'
+
 
 
 

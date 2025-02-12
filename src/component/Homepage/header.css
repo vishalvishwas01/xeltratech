@@ -375,7 +375,7 @@
 
 
 /* .banner-slider1 {
-    background-image: url("./images/banner.jpg");
+    background-image: url("../images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -605,7 +605,7 @@ position: relative;
 
 
 .banner-slider2 {
-    background-image: url("./images/banner1.jpg");
+    background-image: url("../images/banner1.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto; /* Ensures width fits, height adjusts */
     background-position: center;
@@ -614,7 +614,7 @@ position: relative;
 }
 
 .banner-slider3 {
-    background-image: url("./images/banner2.jpg");
+    background-image: url("../images/banner2.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto; /* Ensures width fits, height adjusts */
     background-position: center;

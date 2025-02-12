@@ -1,12 +1,12 @@
 import './developmentprocess.css'
 import React from 'react'
-import UI from './images/UI.svg'
-import prototype from './images/prototype.svg'
-import development from './images/development.svg'
-import discover from './images/discover.svg'
-import quality from './images/quality.png'
-import deployment from './images/deployment.svg'
-import supoortm from './images/supoort.png'
+import UI from '../images/UI.svg'
+import prototype from '../images/prototype.svg'
+import development from '../images/development.svg'
+import discover from '../images/discover.svg'
+import quality from '../images/quality.png'
+import deployment from '../images/deployment.svg'
+import supoortm from '../images/supoort.png'
 
 function Developmentprocess() {
   return (

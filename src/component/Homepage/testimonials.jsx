@@ -1,7 +1,7 @@
 
 import "./testimonials.css";
-import testimonials_pic from "./images/testimonials_pic.jpg"
-import testimonial1 from "./images/testimonial1.jpg"
+import testimonials_pic from "../images/testimonials_pic.jpg"
+import testimonial1 from "../images/testimonial1.jpg"
 
 
 import React, { useRef, useState } from 'react';

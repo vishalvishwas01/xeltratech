@@ -5,9 +5,9 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay"; 
-import SEO from './images/SEO.jpg';
-import data from './images/data.jpg';
-import web from './images/web.jpg';
+// import SEO from '../images/SEO.jpg';
+// import data from '../images/data.jpg';
+// import web from '../images/web.jpg';
 
 function Portfolio() {
     return (

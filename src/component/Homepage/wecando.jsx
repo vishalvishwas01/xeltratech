@@ -2,7 +2,7 @@ import "./wecando.css";
 import mobileapp from '../images/mobile-app-development.svg';
 import react from '../images/react.svg';
 import flutter from '../images/flutter.svg';
-import ServicesCard from "./cards/wecandocard";
+import ServicesCard from "../cards/wecandocard";
 
 
 

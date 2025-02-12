@@ -2,13 +2,13 @@ import React from "react"
 
 
 import './footer.css'
-import logo1 from './images/logo1.png'
-import insta from './images/insta.svg'
-import fb from './images/fb.svg'
-import twit from './images/twit.svg'
-import Pointer from './images/pointer.svg'
-import phone1 from './images/phone1.svg'
-import email1 from './images/email1.svg'
+import logo1 from '../images/logo1.png'
+import insta from '../images/insta.svg'
+import fb from '../images/fb.svg'
+import twit from '../images/twit.svg'
+import Pointer from '../images/pointer.svg'
+import phone1 from '../images/phone1.svg'
+import email1 from '../images/email1.svg'
 
 
 function footer() {

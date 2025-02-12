@@ -561,13 +561,14 @@ margin-bottom: 15px;
 /* why choose us start */
 .choose-body{
     margin-top: 50px;
-    width: screen;
+    width: 100%;
 height: 704px;
 border-color: #ffffff;
 border-width: 3px;
 /* margin: 0 auto; */
 background-color:#f8f8f8 ;
  display: flex;
+ 
 }
 
 @media (max-width:570px){
@@ -616,6 +617,7 @@ margin-top: 50px;
     align-items: flex-start;
     opacity: 1;
     animation: fadeIn 1s ease-in-out;
+    
    
 }
 

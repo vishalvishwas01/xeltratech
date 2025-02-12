@@ -1,10 +1,10 @@
 import "./style.css";
 import "./chooseus.css";
-import qualified from './images/qualified.svg';
-import shield from './images/shield.svg';
-import innovative from './images/innovative.svg';
-import support from './images/support.svg';
-import whychooseusbanner from './images/whychooseusbanner.jpg';
+import qualified from '../images/qualified.svg';
+import shield from '../images/shield.svg';
+import innovative from '../images/innovative.svg';
+import support from '../images/support.svg';
+import whychooseusbanner from '../images/whychooseusbanner.jpg';
 
 
 
@@ -16,6 +16,7 @@ function chooseus() {
     return (
         <> 
             {/* Why Choose Us Start */}
+            <div className="main-body">
             <div className="choose-body">
                 <div className="choose-body-box">
                     <h4 className="choose-body-header1">OUR BENEFITS</h4>
@@ -60,6 +61,7 @@ function chooseus() {
                 </div>
                 <div className="whychoosebanner"><img src={whychooseusbanner}/></div>
                 
+            </div>
             </div>
             {/* Why Choose Us End */}
         </>

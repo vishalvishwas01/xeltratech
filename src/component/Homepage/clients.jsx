@@ -4,7 +4,7 @@ import aurora from '../images/aurora.png'
 import connection from '../images/connection.png'
 import domo from '../images/domo.png'
 import marine from '../images/marine.png'
-import Slider from './cards/slider'
+import Slider from '../cards/slider'
 
 function clients() {
   return (

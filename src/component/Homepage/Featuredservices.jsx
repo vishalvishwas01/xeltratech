@@ -5,12 +5,12 @@ import ITC from '../images/ITC.svg';
 import QA from '../images/QA.svg';
 import UX from '../images/UX.svg';
 import web from '../images/web.svg';
-import qualified from '../images/qualified.svg';
-import shield from '../images/shield.svg';
-import innovative from '../images/innovative.svg';
-import support from '../images/support.svg';
-import whychooseusbanner from '../images/whychooseusbanner.jpg';
-import ServicesCard from "./cards/ServicesCard";
+// import qualified from '../images/qualified.svg';
+// import shield from '../images/shield.svg';
+// import innovative from '../images/innovative.svg';
+// import support from '../images/support.svg';
+// import whychooseusbanner from '../images/whychooseusbanner.jpg';
+import ServicesCard from "../cards/ServicesCard";
 
 
 

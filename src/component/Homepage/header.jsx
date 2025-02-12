@@ -14,12 +14,12 @@ import {
 } from '@coreui/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './header.css';
-import logo1 from './images/logo1.png';
-import banner from './images/banner.jpg';
-import banner1 from './images/banner1.jpg';
-import banner2 from './images/banner2.jpg';
-import menu from './images/menu.svg';
-import arrow from './images/arrow.svg';
+import logo1 from '../images/logo1.png';
+import banner from '../images/banner.jpg';
+import banner1 from '../images/banner1.jpg';
+import banner2 from '../images/banner2.jpg';
+import menu from '../images/menu.svg';
+import arrow from '../images/arrow.svg';
 
 
 

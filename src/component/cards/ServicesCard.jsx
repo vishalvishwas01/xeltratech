@@ -1,5 +1,5 @@
 import React from 'react'
-import "../style.css"
+import "../Homepage/style.css"
 function ServicesCard({icon,head,para}) {
   return (
     <div className='ul'>

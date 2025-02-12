@@ -16,6 +16,7 @@ function chooseus() {
     return (
         <> 
             {/* Why Choose Us Start */}
+            <div className="main-body">
             <div className="choose-body">
                 <div className="choose-body-box">
                     <h4 className="choose-body-header1">OUR BENEFITS</h4>
@@ -60,6 +61,7 @@ function chooseus() {
                 </div>
                 <div className="whychoosebanner"><img src={whychooseusbanner}/></div>
                 
+            </div>
             </div>
             {/* Why Choose Us End */}
         </>

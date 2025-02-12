@@ -50,21 +50,21 @@ function Portfolio() {
                         <SwiperSlide className="web">
                             <div className="SEO-overlay">
                                 <div className="SEO-text1">WEB DEVELOPMENT</div>
-                                <div className="SEO-text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</div>
+                                <div className="SEO-text2">Responsive, fast, and SEO-friendly websites tailored for your business growth.</div>
                                 <div className="SEO-text3"><a href="#">LEARN MORE</a></div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="web">
                             <div className="SEO-overlay">
-                                <div className="SEO-text1">WEB DEVELOPMENT</div>
-                                <div className="SEO-text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</div>
+                                <div className="SEO-text1">App Development</div>
+                                <div className="SEO-text2">Custom mobile and web apps with seamless performance and user-friendly design.</div>
                                 <div className="SEO-text3"><a href="#">LEARN MORE</a></div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="web">
                             <div className="SEO-overlay">
-                                <div className="SEO-text1">WEB DEVELOPMENT</div>
-                                <div className="SEO-text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</div>
+                                <div className="SEO-text1">E-commerce Solutions</div>
+                                <div className="SEO-text2">Scalable online stores with secure payment integration and conversion optimization.</div>
                                 <div className="SEO-text3"><a href="#">LEARN MORE</a></div>
                             </div>
                         </SwiperSlide>

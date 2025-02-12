@@ -46,12 +46,12 @@ function testimonials() {
                   >
                 <SwiperSlide>
                   <div className="testimonials-quote">
-                    <text className="testimonials-quote1">This Shirt Is So Soft And Comfortable. I Was A Bit Worried About The Size Running Small, But I Normally Wear A Medium And It Fits Great.</text>
+                    <div className="testimonials-quote1">Xeltratech provided a thorough professional service that ensured the works were not only clearly communicated throughout the....</div>
                     <div className="test-photo">
                     <ul>
-                      <li><img src={testimonial1}/></li>
-                      <li><div className="test-photo-name"><div className="span1">Brian Perkins</div>
-                                                          <div className="span2">Human Resource</div>
+                      <li></li>
+                      <li><div className="test-photo-name"><div className="span1">Rayn Mcfarlane</div>
+                                                          <div className="span2">United Kingdom</div>
                           
                           </div></li>
                     </ul>
@@ -61,12 +61,12 @@ function testimonials() {
                 </SwiperSlide>
                 <SwiperSlide>
                 <div className="testimonials-quote">
-                    <text>This Shirt Is So Soft And Comfortable. I Was A Bit Worried About The Size Running Small, But I Normally Wear A Medium And It Fits Great.</text>
+                    <div className="testimonials-quote1">Xeltratech​ team provided a proactive professional service that ensured the works were completed within budget, on ...... </div>
                     <div className="test-photo">
                     <ul>
-                      <li><img src={testimonial1}/></li>
-                      <li><div className="test-photo-name"><div className="span1">Brian Perkins</div>
-                                                          <div className="span2">Human Resource</div>
+                      <li></li>
+                      <li><div className="test-photo-name"><div className="span1">Danial Rosenfeild</div>
+                                                          <div className="span2">United Kingdom</div>
                           
                           </div></li>
                     </ul>
@@ -76,12 +76,12 @@ function testimonials() {
                 </SwiperSlide>
                 <SwiperSlide>
                 <div className="testimonials-quote">
-                    <text>This Shirt Is So Soft And Comfortable. I Was A Bit Worried About The Size Running Small, But I Normally Wear A Medium And It Fits Great.</text>
+                    <div className="testimonials-quote1">Xeltratech has displayed their efficiency and professionalism in terms of project, design and quality management. We would not...</div>
                     <div className="test-photo">
                     <ul>
-                      <li><img src={testimonial1}/></li>
-                      <li><div className="test-photo-name"><div className="span1">Brian Perkins</div>
-                                                          <div className="span2">Human Resource</div>
+                      <li></li>
+                      <li><div className="test-photo-name"><div className="span1">kevin</div>
+                                                          <div className="span2">United Kingdom</div>
                           
                           </div></li>
                     </ul>

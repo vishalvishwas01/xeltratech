@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
 
 .testimonials-box {
-    width: 1300px;
+    width: 100%;
     height: 898px;
     display: flex;
     flex-direction: row;
     align-items: center; 
     /* position: relative; */
-    max-width: calc(100% - 400px);
+    /* max-width: calc(100% - 400px); */
     margin: 0 auto;
-    /* border: 2px solid green; */
+    display: flex;
+        justify-content: center;
     
     
    
@@ -29,15 +31,22 @@
     margin-left: 70px;
     width: 406px;
 height: 614px;
-/* border: 2px solid red; */
+border-radius: 20px;
+
 
 
 }
 
 @media (max-width:1800px){
     .testimonials-pic{
-        width: 406px !;
-height: 614px;
+        width: 406px;
+        height: 614px;
+    }
+}
+
+@media (max-width:1700px){
+    .testimonials-pic{
+        
     }
 }
 
@@ -58,6 +67,7 @@ height: 614px;
     width: 100%;  /* Make image take full width of the container */
     height: 100%; /* Make image take full height of the container */
     object-fit: cover; /* Ensures the image covers the box while maintaining aspect ratio */
+    border-radius: 20px;
     
 }
 
@@ -325,8 +335,7 @@ color: #303030;
         
     }
 }
-
-.testimonials-quote text{
+.testimonials-quote1{
    
 font-family: Raleway;
 font-size: 25px;
@@ -335,6 +344,9 @@ line-height: 29.35px;
 text-align: left;
 text-decoration-skip-ink: none;
 color: #303030;
+word-spacing: 3px;
+line-height: 40px;
+
 
 
 }
@@ -352,22 +364,23 @@ height: 83px;
     display: flex;
 }
 
+
+
 .test-photo-name{
-    margin-left: 20px;
     margin-top: 20px;
     width: 180px;
     height: 70px;
 }
 
 .span1{
-    width: 148px;
+    width: 228px;
 height: 29px;
 font-family: Inter;
 font-size: 24px;
 font-weight: 400;
 line-height: 29.05px;
 text-align: left;
-text-underline-position: from-font;
+font-family: inter;
 text-decoration-skip-ink: none;
 color: #EF233C;
 }
@@ -392,6 +405,32 @@ color: #303030;
     width: 100%;
 }
 
+/* Square pagination bullets */
+.swiper-pagination-bullet {
+    width: 43px; /* Size of squares */
+    height: 5px;
+    background-color: #c4c4c4; /* Custom dot color */
+    opacity: 0.6; /* Transparency */
+    transition: all 0.3s ease;
+    border-radius: 0; /* Removes the default round shape */
+    
+}
+
+/* Active bullet styling */
+.swiper-pagination-bullet-active {
+    background-color: #EF233C; /* Bright active square color */
+    opacity: 1;
+}
+
+.swiper-pagination{
+    
+    transform: translate(-180px);
+  }
+
+
+
+
+
 @media (max-width: 740px) {
     .mySwiper{
       width: 100%;
@@ -404,13 +443,12 @@ color: #303030;
     position: relative; /* Change from absolute to relative */
     top: -550px; /* Move it up */
     text-align: center;
+    
 }
 @media (max-width: 740px) {
     .mySwiper .swiper-pagination {
       width: 100%;
     }}
-
-
 
 @media (max-width: 768px) {
     .testimonials-box {
@@ -424,3 +462,5 @@ color: #303030;
       width: 100%;
     }
   }
+
+ 

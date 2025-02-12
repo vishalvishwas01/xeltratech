@@ -29,7 +29,7 @@ function App() {
       <Wecando />
       <Development/>
       <Testimonials/>
-      {/* <Clients/> */}
+      <Clients/>
       <Footer1/>
       {/* <Footer/> */}
       

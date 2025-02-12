@@ -22,32 +22,32 @@ function Featuredservices() {
         {
             icon:app,
             head:"App Development",
-            para:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+            para:"At XeltraTech, we create high-quality mobile applications tailored to your needs, ensuring a seamless user experience."
         },
         {
             icon:IT,
             head:"IT Development",
-            para:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium" 
+            para:"We provide comprehensive IT solutions designed to enhance efficiency, security, and growth for your business." 
         },
         {
             icon:ITC,
             head:"IT Solution",
-            para:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+            para:"Our IT consultants provide expert guidance to help businesses navigate the complexities of technology."
         },
         {
             icon:QA,
             head:"QA & Testing",
-            para:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+            para:"We provide comprehensive QA and testing services to ensure your software meets the highest standards of quality."
         },
         {
             icon:UX,
             head:"UX / UI Design",
-            para:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+            para:"We specialize in UX/UI design that enhances user satisfaction and drives engagement with your digital products."
         },
         {
             icon:web,
             head:"Web Development",
-            para:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"    
+            para:"We specialize in creating dynamic and responsive websites that drive business success and enhance user engagement."    
         }
     ]
     return (

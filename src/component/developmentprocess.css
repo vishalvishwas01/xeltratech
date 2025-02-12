@@ -3,7 +3,7 @@
 
 .dp-body{
     width: screen;
-    height: 961px;
+    padding-bottom: 3rem;
    /* border: 2px solid red; */
    background-color: #f8f8f8; 
    justify-content: center;

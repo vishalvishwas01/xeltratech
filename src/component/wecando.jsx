@@ -18,7 +18,7 @@ function wecando() {
         {
             icon:react,
             head:"React Native Mobile App Development",
-            para:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium" 
+            para:"We develop high-performance mobile apps with React Native for a seamless cross-platform experience on iOS and Android." 
         },
         {
             icon:mobileapp,
@@ -28,17 +28,17 @@ function wecando() {
         {
             icon:flutter,
             head:"Flutter Native Development",
-            para:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+            para:"We specialize in Flutter development, creating high-performance, visually appealing apps for both iOS and Android from a single codebase."
         },
         {
             icon:mobileapp,
             head:"Mobile Platform migration",
-            para:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+            para:"We specialize in Flutter development, creating high-performance, visually appealing apps for both iOS and Android from a single codebase."
         },
         {
             icon:mobileapp,
             head:"Enterprise Mobile App Development",
-            para:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"    
+            para:"We create robust mobile apps to boost productivity and streamline operations for your organization."    
         }
     ]
     return (
@@ -48,10 +48,10 @@ function wecando() {
           <div className="wecando-box">  
             <div className="wecando">
                 <div className="wecando-header1">
-                    <h4>What More <span> We Can </span> Do</h4>
+                    <h4>What More <span> We Can </span>  Do</h4>
                 </div>
                 <div className="wecando-header2">
-                    <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptatem Sed ut perspiciatis unde omnis iste natus error sit</h2>
+                    <h2>We offer UI/UX design, backend integration, and ongoing support to enhance your app</h2>
                 </div>
                 <div className="wecando-header-menu">
                     

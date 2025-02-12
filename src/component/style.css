@@ -24,6 +24,7 @@ body {
 
 
 .featuredservices {
+   
     width: screen;
     max-width: calc(100%-0px);
     margin: 0 auto;

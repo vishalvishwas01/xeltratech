@@ -62,7 +62,6 @@
     width: 100%; /* Ensure full width */
     display: flex;
     align-items: center;
-    /* border: 2px solid red; */
     padding: 25px 5%;
     z-index: 10; /* Ensure it stays above the slides */
     

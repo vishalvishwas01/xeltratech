@@ -12,7 +12,9 @@ import Clients from "./component/homepage/clients";
 import Chooseus from "./component/homepage/chooseus";
 import Development from "./component/homepage/developmentprocess";
 import Footer1 from "./component/homepage/footer1";
-
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import Homepage from "./component/Homepage";
+import ContactUs from "./component/ContactUs/index";
 
 
 function App() {
@@ -20,18 +22,11 @@ function App() {
 
   return (
     <div className="navbar1">
-     
-      <Header/>
-      <Featuredservices />
-      <Chooseus/>
-      <Portfolio />
-      <Wecando />
-      <Development/>
-      <Testimonials/>
-      <Clients/>
-      <Footer1/>
-      {/* <Footer/> */}
-      
+          <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+         
+        </Routes>
     </div>
   );
 }

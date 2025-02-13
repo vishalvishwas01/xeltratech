@@ -6,7 +6,7 @@ import Featuredservices from "./component/homepage/featuredservices";
 import Header from "./component/homepage/header"
 import Portfolio from "./component/homepage/portfolio";
 import Wecando from "./component/homepage/wecando"
-import Testimonials from "./component/homepage/testimonials";
+import Testimonials from "./component/Homepage/testimonials";
 import Clients from "./component/homepage/clients";
 // import Footer from "./component/footer";
 import Chooseus from "./component/homepage/chooseus";

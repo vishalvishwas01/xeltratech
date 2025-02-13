@@ -43,6 +43,7 @@ function Header() {
     return (
         <div className='body-main'>
         <>
+            <div className='navbar-box'>
             <div className={sticky ? "navbar sticky scrolled" : "navbar"}>
                 <img  className='logo1' src={logo1} alt='Xeltratech' />
                 <div className='navmenu-latest'>
@@ -157,6 +158,7 @@ function Header() {
                         </COffcanvas>
                     </div>
                 </div>
+            </div>
             </div>
             
 

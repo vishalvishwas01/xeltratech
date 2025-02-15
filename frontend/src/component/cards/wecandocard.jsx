@@ -1,5 +1,5 @@
 import React from 'react'
-import "../wecando.css"
+import "../Homepage/wecando.css"
 function wecandocard({icon,head,para}) {
   return (
     <div className='ul'>

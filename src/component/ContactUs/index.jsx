@@ -1,10 +1,18 @@
 import React from 'react'
-import "./hero.css"
 import Hero from './Hero'
+import GetStarted from './GetStarted'
+import "./index.css"
+import Enquiry from './Enquiry'
+import Maps from './Maps'
+import Footer1 from '../homepage/footer1'
 const ContactUs = () => {
   return (
-    <div >
+    <div className='body' >
           <Hero/>
+          <GetStarted/>
+          <Enquiry/>
+          <Maps/>
+          <Footer1/>
     </div>
   )
 }

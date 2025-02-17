@@ -1,0 +1,7 @@
+.body{
+    width: screen;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}

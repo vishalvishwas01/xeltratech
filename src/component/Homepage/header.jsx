@@ -20,6 +20,8 @@ import banner1 from '../images/banner1.jpg';
 import banner2 from '../images/banner2.jpg';
 import menu from '../images/menu.svg';
 import arrow from '../images/arrow.svg';
+import About from '../AboutUs/index';
+import { Link } from "react-router-dom";
 
 
 
@@ -49,7 +51,7 @@ function Header() {
                 <div className='navmenu-latest'>
                     <ul>
                         <li>Home</li>
-                        <li>About Us</li>
+                        <li><Link to="/AboutUs">About Us</Link></li>
                         <li>Portfolio
                         <div className='dropdown-services'>
                                 <ul>
@@ -147,7 +149,7 @@ function Header() {
                             <COffcanvasBody>
                             <div className='offcanvas-navmenu'>
                                 <div><button><a href='#'>Home</a></button></div>
-                                <div><button><a href='#'>About</a></button></div>
+                                <div><button><Link to="/AboutUs">About Us</Link></button></div>
                                 <div><button><a href='#'>Services</a></button></div>
                                 <div><button><a href='#'>Portfolio</a></button></div>
                                 <div><button><a href='#'>Packages</a></button></div>

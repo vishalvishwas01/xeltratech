@@ -8,9 +8,10 @@
 
 
 .topbar-body{
-    height: 45px;
+    height: 40px;
     display: flex;
-    justify-content: end;
+    justify-content: end;position: relative;
+    
     
 }
 @media (max-width:420px){

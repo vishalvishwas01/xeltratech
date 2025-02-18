@@ -1,0 +1,26 @@
+.enquiry-container {
+    background-image: url("../../assets/image.svg"); /* Or .svg, .png, etc. */
+    background-size: cover; /* Or contain, depending on your needs */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Other styles you might want */
+     
+    width: 100vw; /* Or adjust width as needed */
+    display: flex; /* or grid, depending on how you want to center content */
+   
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    color: white; /* Example text color */
+    padding: 20px; /* Example padding */
+    
+  }
+  
+  /* If you need styles for the content within the container */
+  .enquiry-container p {
+      text-align: center;
+  }
+  
+  /* If you are using Bootstrap or similar */
+  .mt-3 {
+      margin-top: 1rem; /* Example, adjust to your needs */
+  }

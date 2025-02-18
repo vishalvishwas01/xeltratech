@@ -1,0 +1,66 @@
+.main-div{
+    display: flex; 
+    width: 100vw;
+    overflow: hidden;
+   
+}
+
+
+.sub-div{
+
+    display: flex;
+    gap: 5rem;
+}
+
+.getdiv{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 70px;
+    letter-spacing: 0%;
+    color: #000000;
+    max-width: 56%;
+    flex-shrink: 1;
+}
+
+
+
+@media (max-width: 767px) {
+    .sub-div {
+        padding: 2rem;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .getdiv{
+        font-size:30px;
+        max-width: 80%;
+        line-height: 50px;
+    }
+}
+
+
+.headdiv{
+    font-family: Inter;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0%;
+
+}
+
+.button{
+    padding: 1rem;
+    border-radius: 30px;
+    background-color:#ED1C24;
+    color: white;
+    
+}
+
+
+.header1div{
+    display: flex;
+    justify-content: space-between;
+}

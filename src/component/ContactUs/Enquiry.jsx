@@ -5,10 +5,10 @@ const Enquiry = () => {
   return (
     <div className="mt-3 enquiry-container ">
      
-       <div className=' w-9/12 flex flex-row gap-4 items-center justify-center overflow-hidden flex-wrap'>
-             <div className='  '>
+       <div className='  flex lg:flex-row flex-col gap-4 items-center justify-center overflow-hidden '>
+             <div className='   '>
                  <div className='font-inter text-base leading-[36px] tracking-normal'>Contact Info</div>
-                 <div className="font-inter font-bold text-[48px] leading-[62.4px] tracking-normal">We are always 
+                 <div className="font-inter font-bold text-[38px] max-w-[70%] leading-[62.4px] tracking-normal">We are always 
                  happy to assist you</div>
              </div>
              <div className='  flex flex-col gap-2'>

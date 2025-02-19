@@ -16,6 +16,7 @@ import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 import Homepage from "./component/Homepage";
 import ContactUs from "./component/ContactUs/index";
 import toast, { Toaster } from 'react-hot-toast';
+import SeoPackage from "./component/Packages/SeoPackage.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,6 +26,7 @@ function App() {
           <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/Seo-Package" element={<SeoPackage />} />
          
         </Routes>
     </div>

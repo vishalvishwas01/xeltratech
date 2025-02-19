@@ -7,11 +7,11 @@
      
     width: 100vw; /* Or adjust width as needed */
     display: flex; /* or grid, depending on how you want to center content */
-   
+    
     justify-content: center; /* Horizontally center content */
     align-items: center; /* Vertically center content */
     color: white; /* Example text color */
-    padding: 20px; /* Example padding */
+    padding: 5rem; /* Example padding */
     
   }
   

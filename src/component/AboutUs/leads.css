@@ -153,10 +153,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     height: 100%;
     
-    /* border: 2px solid red; */
 }
 @media (max-width:700px){
     .leads-section-middle-2{
@@ -168,7 +167,7 @@
 
 .leads-section-middle-2-top{
     width: 100%;
-    height: 275px;
+    height: 285px;
     /* border: 2px solid green; */
     display: flex;
     overflow: hidden;
@@ -186,7 +185,7 @@
 
 .leads-section-middle-2-bottom{
     width: 100%;
-    height: 275px;
+    height: 285px;
     /* border: 2px solid green; */
     display: flex;
     overflow: hidden;

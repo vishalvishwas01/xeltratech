@@ -7,7 +7,7 @@ function story() {
     <div className='story-body'>
         <div className='story-header'>
             <div className='story-header-top'><span>Our </span> Story</div>
-            <div className='story-header-bottom'>Lorem ipsum dolor sit amet consectetur. Justo proin sodales tempus hac at viverra ut curabitur.roin commodo vel .</div>
+            <div className='story-header-bottom'>Xeltratech delivers innovative web and mobile app development, SEO, digital marketing, and app maintenance.</div>
         </div>
 
         <div className='story-content-box'>

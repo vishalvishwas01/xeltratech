@@ -1,6 +1,6 @@
 import React from 'react'
 import './hero.css'
-import aboutus from '../images/aboutus.png'
+import aboutus from '../images/aboutus.jpg'
 
 function hero() {
   return (

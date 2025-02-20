@@ -72,6 +72,7 @@ font-size: 16px;
 line-height: 18.78px;
 letter-spacing: 0%;
 text-align: center;
+
 }
 
 
@@ -83,397 +84,83 @@ text-align: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+    /* border: 2px solid red  */
 }
 
-.offerings-box-content1 {
-    width: 360px;
-    height: 300px;
-    border-radius: 10px;
+.offerings-box-content1{
+    width: 353px;
+    height: 382px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    gap: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out 1s forwards;
 }
-@media (max-width:550px){.offerings-box-content1{width: 340px;}}
+.offerings-box-content1:hover{
+    border: 1px solid #ED1C24;
+}
 
+.offerings-box-content1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
 
 .offerings-box-content1-header{
-    background-color: #ED1C24;
-    width: 360px;
-    height: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    width: 100%;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.offerings-box-content1-header-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerings-box-content1-header-img img{
+    height: 80px;
+}
+.offerings-box-content1-header-text{
+    width: 100%;
+    text-align: center;
     font-family: Montserrat;
     font-weight: 700;
     font-size: 18px;
     line-height: 21.94px;
     letter-spacing: 0%;
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-@media (max-width:550px){.offerings-box-content1-header{width: 340px;}}
 
 .offerings-box-content1-footer{
-    height: 250px;
-    width: 360px;
+    width: 100%;
+    height: static;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.offerings-box-content1-footer ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        gap: 20px;
-        list-style-type: square;
-        padding-left: 20px;
-        margin: 0;
 }
 
 .offerings-box-content1-footer ul li{
     font-family: Montserrat;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19.5px;
+    line-height: 40px;
     letter-spacing: 0%;
-    
-
+    list-style:disc;
 }
 
-.offerings-box-content1-footer ul li::marker{color: #ED1C24;font-size: 20px;}
-
-
-
-
-
-
-.offerings-box-content2 {
-    width: 360px;
-    height: 300px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
-@media (max-width:550px){.offerings-box-content2{width: 340px;}}
-
-.offerings-box-content2-header{
-    background-color: #ED1C24;
-    width: 360px;
-    height: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21.94px;
-    letter-spacing: 0%;
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-@media (max-width:550px){.offerings-box-content2-header{width: 340px;}}
-
-.offerings-box-content2-footer{
-    height: 250px;
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.offerings-box-content1-footer ul li a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease-in-out;
 }
 
-.offerings-box-content2-footer ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        gap: 20px;
-        list-style-type: square;
-        padding-left: 20px;
-        margin: 0;
+.offerings-box-content1-footer ul li a:hover{
+    color:#ED1C24
 }
-
-.offerings-box-content2-footer ul li{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19.5px;
-    letter-spacing: 0%;
-    
-
-}
-
-.offerings-box-content2-footer ul li::marker{color: #ED1C24;font-size: 20px;}
-
-
-
-
-.offerings-box-content3 {
-    width: 360px;
-    height: 300px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
-@media (max-width:550px){.offerings-box-content3{width: 340px;}}
-
-.offerings-box-content3-header{
-    background-color: #ED1C24;
-    width: 360px;
-    height: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21.94px;
-    letter-spacing: 0%;
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-@media (max-width:550px){.offerings-box-content3-header{width: 340px;}}
-
-.offerings-box-content3-footer{
-    height: 250px;
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.offerings-box-content3-footer ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        gap: 20px;
-        list-style-type: square;
-        padding-left: 20px;
-        margin: 0;
-}
-
-.offerings-box-content3-footer ul li{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19.5px;
-    letter-spacing: 0%;
-    
-
-}
-
-.offerings-box-content3-footer ul li::marker{color: #ED1C24;font-size: 20px;}
-
-
-
-
-
-.offerings-box-content4 {
-    width: 360px;
-    height: 300px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
-@media (max-width:550px){.offerings-box-content4{width: 340px;}}
-
-.offerings-box-content4-header{
-    background-color: #ED1C24;
-    width: 360px;
-    height: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21.94px;
-    letter-spacing: 0%;
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-@media (max-width:550px){.offerings-box-content4-header{width: 340px;}}
-
-.offerings-box-content4-footer{
-    height: 250px;
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.offerings-box-content4-footer ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        gap: 20px;
-        list-style-type: square;
-        padding-left: 20px;
-        margin: 0;
-}
-
-.offerings-box-content4-footer ul li{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19.5px;
-    letter-spacing: 0%;
-    
-
-}
-
-.offerings-box-content4-footer ul li::marker{color: #ED1C24;font-size: 20px;}
-
-
-
-
-
-.offerings-box-content5 {
-    width: 360px;
-    height: 300px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
-@media (max-width:550px){.offerings-box-content5{width: 340px;}}
-
-.offerings-box-content5-header{
-    background-color: #ED1C24;
-    width: 360px;
-    height: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21.94px;
-    letter-spacing: 0%;
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-@media (max-width:550px){.offerings-box-content5-header{width: 340px;}}
-
-.offerings-box-content5-footer{
-    height: 250px;
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.offerings-box-content5-footer ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        gap: 20px;
-        list-style-type: square;
-        padding-left: 20px;
-        margin: 0;
-}
-
-.offerings-box-content5-footer ul li{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19.5px;
-    letter-spacing: 0%;
-    
-
-}
-
-.offerings-box-content5-footer ul li::marker{color: #ED1C24;font-size: 20px;}
-
-
-
-
-
-.offerings-box-content6 {
-    width: 360px;
-    height: 300px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
-@media (max-width:550px){.offerings-box-content6{width: 340px;}}
-
-.offerings-box-content6-header{
-    background-color: #ED1C24;
-    width: 360px;
-    height: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21.94px;
-    letter-spacing: 0%;
-    color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-@media (max-width:550px){.offerings-box-content6-header{width: 340px;}}
-
-.offerings-box-content6-footer{
-    height: 250px;
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.offerings-box-content6-footer ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        gap: 20px;
-        list-style-type: square;
-        padding-left: 20px;
-        margin: 0;
-}
-
-.offerings-box-content6-footer ul li{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19.5px;
-    letter-spacing: 0%;
-    
-
-}
-
-.offerings-box-content6-footer ul li::marker{color: #ED1C24;font-size: 20px;}

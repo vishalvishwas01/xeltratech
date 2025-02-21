@@ -4,6 +4,8 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
+const authRoutes = require("./Routes/userRoute.js");
+const Navbar = require("./Routes/NavMenu.js");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -39,6 +41,9 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+app.use("/auth", authRoutes);
+app.use("/navbar", Navbar);
+
 // API Endpoint to Handle Form Submission
 app.post("/contact", async (req, res) => {
   try {
@@ -60,7 +65,7 @@ app.post("/contact", async (req, res) => {
       from: `"Contact us Form" <${process.env.MAIL_USER}>`, // Sender email
       to: email, // User email
       subject: "Contact Form Submission",
-      html: `<p>Hello Sagar,</p><p>Here's new Client send you a  message:</p><blockquote>${message}</blockquote><p>We'll get back to you soon.</p><p>Best Regards,<br>Your Team</p>`,
+      html: `<p>Hello Neeraj,</p><p>Here's new Client <br></br> Name:${name}  <br></br>   message:</p><blockquote>${message}</blockquote><br><br> Email:<p>${email}</p><br></br><p>Number:${phone}</p>We'll get back to you soon.</p><p>Best Regards,<br>Your Team</p>`,
     };
 
     const info = await transporter.sendMail(mailOptions);

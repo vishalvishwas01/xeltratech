@@ -16,6 +16,18 @@ body {
 .wecando-box{
     width: 100%;
     
+    
+}
+@media (max-width: 1400px){
+    .wecando-box{
+        margin-top: -200px;
+    }
+}
+
+@media (max-width: 900px){
+    .wecando-box{
+        margin-top: 80px;
+    }
 }
 
 .wecando-body{

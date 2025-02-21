@@ -8,7 +8,7 @@ const GetStarted = () => {
     <div className='main-div'>
         <div className='sub-div'>
           <img src={group} className='hidden md:block ' />
-            <div>
+            <div className='  p-3'>
                 <div className='header1div'>
                     <div className='headdiv'>Get started</div>
                     <button className='button'>

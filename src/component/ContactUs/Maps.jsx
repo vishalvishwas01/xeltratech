@@ -22,7 +22,7 @@ const Maps = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-center flex-col md:flex-row gap-2 w-screen">
+    <div className="flex items-center justify-center flex-col md:flex-row gap-2 w-screen p-3">
       <div className="flex items-center justify-center gap-3 md:w-1/2  lg:w-[40%]">
         <p className="font-inter font-bold text-[3rem] max-w-[100%]  lg:max-w-[70%] flex items-center">
           You can  Directly reach us{" "}

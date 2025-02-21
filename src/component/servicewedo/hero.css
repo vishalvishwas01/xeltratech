@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.hero-body{
+    width: screen;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-body img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-box{
+    width: 80%;
+    height: static;
+    position: absolute;
+}
+
+.hero-box-heading1{
+    width: 100%;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58.51px;
+    letter-spacing: 0%;
+    color: #ffff;
+
+}
+.hero-box-heading2{
+    width: 720px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    letter-spacing: 0%;
+    color: #ffff;
+}
+
+@media (max-width:905px){
+    .hero-box-heading2{
+        width: 100%;
+    }
+}
+@media (max-width:870px){
+    .hero-box-heading2{
+        font-size: 16px;
+    }
+}
+@media (max-width:780px){
+    .hero-box-heading2{
+        font-size: 14px;
+    }
+}
+@media (max-width:680px){
+    .hero-box-heading2{
+        font-size: 12px;
+    }
+}

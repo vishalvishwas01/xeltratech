@@ -1,5 +1,6 @@
 .bodyhero {
-    background-image: url("../../assets/aboutus.svg");
+    /* background-image: url("../../assets/aboutus.svg"); */
+    background-image: url("../images/contactnew.jpg");
     width: 100%; /* Use 100% or 100vw for full viewport width */
     height: 519px;
     background-size: cover; /* or contain, depending on your needs */
@@ -11,6 +12,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -0.1rem;
+    
+    
 }
 
 

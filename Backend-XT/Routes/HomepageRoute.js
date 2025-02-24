@@ -1,5 +1,5 @@
 const express = require("express");
-const { addCards, getCards, addMoreWeCanCards, getWhatMoreCard } = require("../controller/HomepageData");
+const { addCards, getCards, addMoreWeCanCards, getWhatMoreCard } = require("../Controller/HomepageData");
 
 const router = express.Router();
 

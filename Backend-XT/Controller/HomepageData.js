@@ -1,4 +1,4 @@
-const Card = require("../models/Card");
+const Card = require("../Models/Card");
 const WhatMoreCard = require("../Models/WhatMoreCard");
 
 // Controller to add multiple cards at once

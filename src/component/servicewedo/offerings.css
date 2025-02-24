@@ -65,13 +65,14 @@
 }
 
 .offerings-box-header2{
-    width: 70%;
+    width: 75%;
     font-family: Raleway;
 font-weight: 500;
 font-size: 16px;
 line-height: 18.78px;
 letter-spacing: 0%;
 text-align: center;
+
 
 }
 
@@ -84,6 +85,7 @@ text-align: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+    
 }
 
 .offerings-box-content1{

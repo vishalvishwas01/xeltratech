@@ -9,7 +9,7 @@ import Topmenu from "../commonpage/Topmenu";
 import Topbar from "../Homepage/Topbar";
 const ContactUs = () => {
   return (
-    <div className="body">
+    <div className=" overflow-hidden">
       <Topbar />
       <Topmenu />
       <Hero />

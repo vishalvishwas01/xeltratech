@@ -15,6 +15,8 @@ import Footer1 from "./component/homepage/footer1";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./component/Homepage";
 import ContactUs from "./component/ContactUs/index";
+import toast, { Toaster } from 'react-hot-toast';
+import SeoPackage from "./component/Packages/SeoPackage.jsx";
 import AboutUs from "./component/AboutUs/index";
 import Servicewedo from "./component/servicewedo/index";
 import MobileUI from "./component/serviceoffered/MobileUI/index";
@@ -24,6 +26,7 @@ function App() {
 
   return (
     <div className="navbar1 ">
+         
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/ContactUs" element={<ContactUs />} />

@@ -1,4 +1,4 @@
-const Navbar = require("../models/Navbar");
+const Navbar = require("../Models/Navbar");
 
 exports.addMenu = async (req, res) => {
   try {

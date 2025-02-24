@@ -6,6 +6,7 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const authRoutes = require("./Routes/userRoute.js");
 const Navbar = require("./Routes/NavMenu.js");
+const HomepageRoute=require("./Routes/HomepageRoute.js")
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -43,6 +44,7 @@ const transporter = nodemailer.createTransport({
 
 app.use("/auth", authRoutes);
 app.use("/navbar", Navbar);
+app.use("/homepage",HomepageRoute)
 
 // API Endpoint to Handle Form Submission
 app.post("/contact", async (req, res) => {

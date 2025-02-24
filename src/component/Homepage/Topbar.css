@@ -10,7 +10,8 @@
 .topbar-body{
     height: 40px;
     display: flex;
-    justify-content: end;position: relative;
+    justify-content: end;
+    position: relative;
     
     
 }

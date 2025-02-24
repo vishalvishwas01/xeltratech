@@ -1,5 +1,10 @@
 import React from 'react'
 import './offerings.css'
+// import mobileapp from "./images/mobile_app_development.png"
+import mobileapp from "./images/touch-screen.gif"
+import webdesign from "./images/logo-design.gif"
+import advertising from "./images/advertising.gif"
+import webdeveloper from "./images/web-developer.gif"
 
 function Offerings() {
   return (
@@ -13,86 +18,116 @@ function Offerings() {
         <div className='offerings-box-content'>
 
           <div className='offerings-box-content1'>
-            <div className='offerings-box-content1-header'>Mobile App Development</div>
+            <div className='offerings-box-content1-header'>
+              <div className='offerings-box-content1-header-img'><img src={mobileapp}/></div>
+              <div className='offerings-box-content1-header-text'>Mobile App Development</div>
+            </div>
+            <div className='offerings-box-content1-footer'>
+            <ul>
+                <li><a href='#' target='blank'>IOS Application Development</a></li>
+                <li><a href='#' target='blank'>Android Apps Development</a></li>
+                <li><a href='#' target='blank'>Windows Apps Development</a></li>
+                <li><a href='#' target='blank'>App Support And Maintenance</a></li>
+                <li><a href='#' target='blank'>App Marketing Services</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div className='offerings-box-content1'>
+            <div className='offerings-box-content1-header'>
+              <div className='offerings-box-content1-header-img'><img src={webdesign}/></div>
+              <div className='offerings-box-content1-header-text'>Website Design</div>
+            </div>
+            <div className='offerings-box-content1-footer'>
+            <ul>
+                <li><a href='#' target='blank'>IOS Application Development</a></li>
+                <li><a href='#' target='blank'>Android Apps Development</a></li>
+                <li><a href='#' target='blank'>Windows Apps Development</a></li>
+                <li><a href='#' target='blank'>App Support And Maintenance</a></li>
+                <li><a href='#' target='blank'>App Marketing Services</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div className='offerings-box-content1'>
+            <div className='offerings-box-content1-header'>
+              <div className='offerings-box-content1-header-img'><img src={advertising}/></div>
+              <div className='offerings-box-content1-header-text'>Digital Marketing</div>
+            </div>
+            <div className='offerings-box-content1-footer'>
+            <ul>
+                <li><a href='#' target='blank'>IOS Application Development</a></li>
+                <li><a href='#' target='blank'>Android Apps Development</a></li>
+                <li><a href='#' target='blank'>Windows Apps Development</a></li>
+                <li><a href='#' target='blank'>App Support And Maintenance</a></li>
+                <li><a href='#' target='blank'>App Marketing Services</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div className='offerings-box-content1'>
+            <div className='offerings-box-content1-header'>
+              <div className='offerings-box-content1-header-img'><img src={webdeveloper}/></div>
+              <div className='offerings-box-content1-header-text'>Mobile App Development</div>
+            </div>
+            <div className='offerings-box-content1-footer'>
+            <ul>
+                <li><a href='#' target='blank'>IOS Application Development</a></li>
+                <li><a href='#' target='blank'>Android Apps Development</a></li>
+                <li><a href='#' target='blank'>Windows Apps Development</a></li>
+                <li><a href='#' target='blank'>App Support And Maintenance</a></li>
+                <li><a href='#' target='blank'>App Marketing Services</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div className='offerings-box-content1'>
+            <div className='offerings-box-content1-header'>
+              <div className='offerings-box-content1-header-img'><img src={mobileapp}/></div>
+              <div className='offerings-box-content1-header-text'>Mobile App Development</div>
+            </div>
+            <div className='offerings-box-content1-footer'>
+            <ul>
+                <li><a href='#' target='blank'>IOS Application Development</a></li>
+                <li><a href='#' target='blank'>Android Apps Development</a></li>
+                <li><a href='#' target='blank'>Windows Apps Development</a></li>
+                <li><a href='#' target='blank'>App Support And Maintenance</a></li>
+                <li><a href='#' target='blank'>App Marketing Services</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div className='offerings-box-content1'>
+            <div className='offerings-box-content1-header'>
+              <div className='offerings-box-content1-header-img'><img src={mobileapp}/></div>
+              <div className='offerings-box-content1-header-text'>Mobile App Development</div>
+            </div>
             <div className='offerings-box-content1-footer'>
               <ul>
-                <li>IOS Application Development</li>
-                <li>Android Apps Development</li>
-                <li>Windows Apps Development</li>
-                <li>App Support And Maintenance</li>
-                <li>App Marketing Services</li>
+                <li><a href='#' target='blank'>IOS Application Development</a></li>
+                <li><a href='#' target='blank'>Android Apps Development</a></li>
+                <li><a href='#' target='blank'>Windows Apps Development</a></li>
+                <li><a href='#' target='blank'>App Support And Maintenance</a></li>
+                <li><a href='#' target='blank'>App Marketing Services</a></li>
               </ul>
             </div>
           </div>
 
-          <div className='offerings-box-content2'>
-            <div className='offerings-box-content2-header'>Website Design</div>
-            <div className='offerings-box-content2-footer'>
-              <ul>
-                <li>IOS Application Development</li>
-                <li>Android Apps Development</li>
-                <li>Windows Apps Development</li>
-                <li>App Support And Maintenance</li>
-                <li>App Marketing Services</li>
-              </ul>
-            </div>
-          </div>
+          
 
-          <div className='offerings-box-content3'>
-            <div className='offerings-box-content3-header'>Website Development</div>
-            <div className='offerings-box-content3-footer'>
-              <ul>
-                <li>IOS Application Development</li>
-                <li>Android Apps Development</li>
-                <li>Windows Apps Development</li>
-                <li>App Support And Maintenance</li>
-                <li>App Marketing Services</li>
-              </ul>
-            </div>
-          </div>
 
-          <div className='offerings-box-content4'>
-            <div className='offerings-box-content4-header'>Digital Marketing</div>
-            <div className='offerings-box-content4-footer'>
-              <ul>
-                <li>IOS Application Development</li>
-                <li>Android Apps Development</li>
-                <li>Windows Apps Development</li>
-                <li>App Support And Maintenance</li>
-                <li>App Marketing Services</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className='offerings-box-content5'>
-            <div className='offerings-box-content5-header'>Mobile App Development</div>
-            <div className='offerings-box-content5-footer'>
-              <ul>
-                <li>IOS Application Development</li>
-                <li>Android Apps Development</li>
-                <li>Windows Apps Development</li>
-                <li>App Support And Maintenance</li>
-                <li>App Marketing Services</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className='offerings-box-content6'>
-            <div className='offerings-box-content6-header'>Mobile App Development</div>
-            <div className='offerings-box-content6-footer'>
-              <ul>
-                <li>IOS Application Development</li>
-                <li>Android Apps Development</li>
-                <li>Windows Apps Development</li>
-                <li>App Support And Maintenance</li>
-                <li>App Marketing Services</li>
-              </ul>
-            </div>
-          </div>
+        </div>
         </div>
       </div>
-      
-    </div>
   )
 }
 

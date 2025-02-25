@@ -36,7 +36,7 @@ const Topmenu = () => {
         <img className='logo1' src={logo1} alt='Xeltratech' />
         <div className='navmenu-latest'>
           <ul>
-            <li>Home</li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/AboutUs">About Us</Link></li>
             <li>Portfolio
               <div className='dropdown-services'>
@@ -55,7 +55,7 @@ const Topmenu = () => {
                                         <div className='dropdown-services-submenu1'>
                                             <ul>
                                                 <li><a href='#'>Mobile App Ui</a></li>
-                                                <li><a href='#'>Hybrid Development</a></li>
+                                                <li><Link to="/Servicewedo/HybridAppDevelopment">Hybrid App Development</Link></li>
                                                 <li><a href='#'>IOS App Development</a></li>
                                                 <li><a href='#'>Mobile App Maintenance</a></li>
                                                 <li><a href='#'>Android App Development</a></li>

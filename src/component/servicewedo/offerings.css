@@ -12,30 +12,7 @@
     padding-block: 20px;
 }
 
-.offerings-box{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    height: static;
-}
-@media (max-width:550px){
-    .offerings-box{
-        width: 90%;
-    }
-}
 
-.offerings-box-header{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    height: static;
-}
 
 .offerings-box-header1{
     font-family: Plus Jakarta Sans;
@@ -45,9 +22,6 @@
     letter-spacing: 0%;
 }
 
-.offerings-box-header1  span{
-    color: #ED1C24;
-}
 @media (max-width:477px){
     .offerings-box-header1{
             width: 70%;

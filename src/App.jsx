@@ -1,25 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import Featuredservices from "./component/homepage/featuredservices";
-import Header from "./component/homepage/header";
-import Portfolio from "./component/homepage/portfolio";
-import Wecando from "./component/homepage/wecando";
-import Testimonials from "./component/Homepage/testimonials";
-import Clients from "./component/homepage/clients";
 // import Footer from "./component/footer";
-import Chooseus from "./component/homepage/chooseus";
-import Development from "./component/homepage/developmentprocess";
-import Footer1 from "./component/homepage/footer1";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./component/Homepage";
 import ContactUs from "./component/ContactUs/index";
-import toast, { Toaster } from 'react-hot-toast';
-import SeoPackage from "./component/Packages/SeoPackage.jsx";
 import AboutUs from "./component/AboutUs/index";
 import Servicewedo from "./component/servicewedo/index";
 import MobileUI from "./component/serviceoffered/MobileUI/index";
+import HybridAppDevelopment from "./component/serviceoffered/HybridAppDevelopment/index";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,6 +21,7 @@ function App() {
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Servicewedo" element={<Servicewedo />} />
         <Route path="/MobileUI" element={<MobileUI />} />
+        <Route path="/Servicewedo/HybridAppDevelopment" element={<HybridAppDevelopment />} />
       </Routes>
     </div>
   );

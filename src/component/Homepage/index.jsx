@@ -5,12 +5,14 @@ import Featuredservices from "../Homepage/Featuredservices";
 import Header from "../homepage/header"
 import Portfolio from "../homepage/portfolio";
 import Wecando from "../homepage/wecando"
-import Testimonials from "../homepage/testimonials";
+import Testimonials from "../Homepage/testimonials";
 import Clients from "../homepage/clients";
 // import Footer from "./component/footer";
 import Chooseus from "../homepage/chooseus";
 import Development from "../homepage/developmentprocess";
 import Footer1 from "../homepage/footer1";
+import Topbar from "../Homepage/Topbar";
+
 
 
 
@@ -19,7 +21,7 @@ function Homepage() {
 
   return (
     <div className="navbar1">
-     
+      <Topbar/>
       <Header/>
       <Featuredservices />
       <Chooseus/>

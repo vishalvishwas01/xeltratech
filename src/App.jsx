@@ -1,22 +1,24 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import Featuredservices from "./component/homepage/featuredservices";
-import Header from "./component/homepage/header"
-import Portfolio from "./component/homepage/portfolio";
-import Wecando from "./component/homepage/wecando"
-import Testimonials from "./component/Homepage/testimonials";
-import Clients from "./component/homepage/clients";
 // import Footer from "./component/footer";
-import Chooseus from "./component/homepage/chooseus";
-import Development from "./component/homepage/developmentprocess";
-import Footer1 from "./component/homepage/footer1";
-import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./component/Homepage";
 import ContactUs from "./component/ContactUs/index";
+<<<<<<< HEAD
+<<<<<<< HEAD
 import AboutUs from "./component/AboutUs";
 
+=======
+=======
+>>>>>>> 64e011bbb80f504fd4605bfd78862f90c3618254
+import AboutUs from "./component/AboutUs/index";
+import Servicewedo from "./component/servicewedo/index";
+import MobileUI from "./component/serviceoffered/MobileUI/index";
+import HybridAppDevelopment from "./component/serviceoffered/HybridAppDevelopment/index";
+<<<<<<< HEAD
+>>>>>>> 74621fc823ff0cc5de4048c9388ca1a7da53ed17
+=======
+>>>>>>> 64e011bbb80f504fd4605bfd78862f90c3618254
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,7 +28,6 @@ function App() {
           <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/ContactUs" element={<ContactUs />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
          
         </Routes>
     </div>

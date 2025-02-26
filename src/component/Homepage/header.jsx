@@ -4,26 +4,23 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
-import {
-  CButton,
-  CCloseButton,
-  COffcanvas,
-  COffcanvasBody,
-  COffcanvasHeader,
-  COffcanvasTitle,
-} from '@coreui/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './header.css';
-import logo1 from '../images/logo1.png';
 import banner from '../images/banner.jpg';
 import banner1 from '../images/banner1.jpg';
 import banner2 from '../images/banner2.jpg';
+<<<<<<< HEAD
+<<<<<<< HEAD
 import menu from '../images/menu.svg';
 import arrow from '../images/arrow.svg';
 import About from '../AboutUs/index';
 import { Link } from "react-router-dom";
 
 
+=======
+>>>>>>> 74621fc823ff0cc5de4048c9388ca1a7da53ed17
+=======
+>>>>>>> 64e011bbb80f504fd4605bfd78862f90c3618254
 
 // import "./style.css";
 
@@ -45,6 +42,8 @@ function Header() {
     return (
         <div className='body-main'>
         <>
+<<<<<<< HEAD
+<<<<<<< HEAD
             <div className='navbar-box'>
             <div className={sticky ? "navbar sticky scrolled" : "navbar"}>
                 <img  className='logo1' src={logo1} alt='Xeltratech' />
@@ -164,6 +163,10 @@ function Header() {
             </div>
             
 
+=======
+>>>>>>> 74621fc823ff0cc5de4048c9388ca1a7da53ed17
+=======
+>>>>>>> 64e011bbb80f504fd4605bfd78862f90c3618254
             <Swiper
                 cssMode={true}
                 navigation={true}

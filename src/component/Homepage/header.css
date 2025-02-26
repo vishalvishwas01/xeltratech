@@ -56,9 +56,17 @@
     width: 180px;
     height: 60px;
     margin-top: -10px;
+<<<<<<< HEAD
+<<<<<<< HEAD
     margin-left: 290px;
     
         
+=======
+    margin-left: 290px;   
+>>>>>>> 74621fc823ff0cc5de4048c9388ca1a7da53ed17
+=======
+    margin-left: 290px;   
+>>>>>>> 64e011bbb80f504fd4605bfd78862f90c3618254
 }
 
 
@@ -158,7 +166,7 @@
 
 
 .navbar {
-    position: fixed; /* Keep navbar fixed over slides */
+    position: fixed !important; /* Keep navbar fixed over slides */
     width: 100%; /* Ensure full width */
     display: flex;
     align-items: center;
@@ -176,11 +184,20 @@
 
 .navbar {
     transition: background-color 0.3s ease-in-out;
+    position: absolute;
 }
 
 .navbar.scrolled {
     margin-top: -40px;
+<<<<<<< HEAD
+<<<<<<< HEAD
     background-color: rgba(0, 0, 0, 0.432);
+=======
+    background-color: rgba(0, 0, 0, 0.8);
+>>>>>>> 74621fc823ff0cc5de4048c9388ca1a7da53ed17
+=======
+    background-color: rgba(0, 0, 0, 0.8);
+>>>>>>> 64e011bbb80f504fd4605bfd78862f90c3618254
     height: 80px;
     
 }

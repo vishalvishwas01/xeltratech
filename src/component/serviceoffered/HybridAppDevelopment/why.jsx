@@ -21,7 +21,6 @@ function why() {
             heading: "Ease of Integration",
             para:"Lorem ipsum dolor sit amet consectetur. Elit tempor velit ornare pretium rutrum id. Imperdiet leo turpis vehicula netus. Proin turpis bibendum vivamus odio libero. Vel duis pharetra integer",
         },
-       
           ]
   return (
     <>

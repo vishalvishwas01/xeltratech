@@ -8,25 +8,11 @@
 
 
 .topbar-body{
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height: 45px;
-    display: flex;
-    justify-content: end;
-=======
     height: 40px;
     display: flex;
     justify-content: end;
     position: relative;
     
->>>>>>> 74621fc823ff0cc5de4048c9388ca1a7da53ed17
-=======
-    height: 40px;
-    display: flex;
-    justify-content: end;
-    position: relative;
-    
->>>>>>> 64e011bbb80f504fd4605bfd78862f90c3618254
     
 }
 @media (max-width:420px){
@@ -101,14 +87,7 @@
     align-items: center;
     gap: 5px;
     font-family: Inter;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     font-size: 14px;
->>>>>>> 74621fc823ff0cc5de4048c9388ca1a7da53ed17
-=======
-    font-size: 14px;
->>>>>>> 64e011bbb80f504fd4605bfd78862f90c3618254
 }
 
 
@@ -121,14 +100,7 @@
     align-items: center;
     gap: 5px;
     font-family: Raleway;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     font-size: 14px;
->>>>>>> 74621fc823ff0cc5de4048c9388ca1a7da53ed17
-=======
-    font-size: 14px;
->>>>>>> 64e011bbb80f504fd4605bfd78862f90c3618254
 }
 
 .topbar-skype{
@@ -140,13 +112,5 @@
     align-items: center;
     gap: 5px;
     font-family: Raleway;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     font-size: 14px;
->>>>>>> 74621fc823ff0cc5de4048c9388ca1a7da53ed17
-=======
-    font-size: 14px;
->>>>>>> 64e011bbb80f504fd4605bfd78862f90c3618254
 }
-

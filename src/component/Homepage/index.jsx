@@ -10,7 +10,11 @@ import Testimonials from "../Homepage/testimonials";
 // import Footer from "./component/footer";
 import Chooseus from "../homepage/chooseus";
 import Development from "../homepage/developmentprocess";
+<<<<<<< HEAD
 import Footer1 from "../homepage/footer1";
+=======
+// import Footer1 from "../homepage/footer1";
+>>>>>>> aab3f2dcaa7e0c4378b06b59066dfc119e41f867
 import Topbar from "../Homepage/Topbar";
 import Topmenu from "../commonpage/Topmenu";
 

@@ -12,6 +12,35 @@
     padding-block: 20px;
 }
 
+/* Default styles */
+.offerings-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* 20px */
+    width: 90%; /* Default to 90% width */
+    
+  }
+  
+  /* Media query for medium screens */
+  @media (max-width: 768px) {
+    .offerings-box {
+      width: 80%; /* On medium screens, set width to 80% */
+    }
+  }
+  
+
+  /* Default styles */
+.offerings-box-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* 20px */
+    width: 100%; /* Full width */
+  }
+  
 
 
 .offerings-box-header1{
@@ -46,13 +75,11 @@ font-size: 16px;
 line-height: 18.78px;
 letter-spacing: 0%;
 text-align: center;
-
-
 }
 
 
 .offerings-box-content{
-    width: 90%;
+    width: 85%;
     height: static;
     display: flex;
     justify-content: center;

@@ -68,8 +68,8 @@ function Offerings() {
   return (
     <>
     <div className='offerings-body'>
-    <div class="w-4/5 flex flex-col justify-center items-center gap-5 md:w-4/5 w-[90%] max-w-[550px]:w-[90%]">
-    <div class="w-full flex flex-col justify-center items-center gap-5">
+    <div class="offerings-box">
+    <div class="offerings-box-header">
           <div className="offerings-box-header1 ">
             WHAT SERVICES <span className="text-[#ED1C24]"> WE OFFER </span></div>
           <div className="offerings-box-header2">We provide responsive web design, software development, digital marketing, SEO, e-commerce solutions, app development, and secure IT services.</div>

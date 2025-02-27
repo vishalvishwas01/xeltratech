@@ -1,0 +1,75 @@
+.form{
+     margin-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+
+
+#name{
+   
+    outline: none;
+    outline: none;
+    border-bottom: 0.1rem solid #CACACA;
+}
+
+
+.maindivcontact{
+    width: screen;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    
+}
+
+#button{
+    margin-top: 2rem;
+    padding:0.9rem;
+    border-radius: 20px;
+    color: white;
+    background-color: #ED1C24;   
+        width: 351px;
+    height: 74px;
+    top: 1248px;
+    left: 210px;
+ 
+}
+
+.messagebutton{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.63px;
+    letter-spacing: 0%;
+    text-align: center;
+   color: white;
+}
+
+.messagehead{
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     align-items: center;
+     justify-content: center;
+}
+#phone{
+    width: 1/3;
+    outline: none;
+    border-bottom: 0.1rem solid #CACACA;
+}
+
+#message{
+    width: 1/3;
+    width: 100%;
+    outline: none;
+    border-bottom: 0.1rem solid #CACACA;
+}
+
+.messagediv{
+   
+}
+
+#email{
+    width: 1/3;
+    outline: none;
+    border-bottom: 0.1rem solid #CACACA;
+}

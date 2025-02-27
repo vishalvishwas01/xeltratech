@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+.footer1-body{
+    width: screen;
+    min-height: 660px; /* Allows container to expand */
+    background: #161616;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer1-box{
+    min-height: 660px; /* Allows container to expand */
+    width: 75%;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    display: visible;
+}
+@media (max-width:1440px){
+    .footer1-box{
+        margin-top: 80px;
+    }
+}
+
+/* column1 start */
+.footer1-column1{
+    /* border: 2px solid green; */
+    width: 380px;
+    height: 420px;
+}
+
+.footer1-column1 p{
+    height: 130px;
+    /* border: 2px solid rgb(7, 170, 199); */
+    width: 360px;
+    margin-top: 40px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #ffff;
+
+}
+
+.reach-us{
+    width: 220px;
+    height: 120px;
+    /* border: 2px solid yellow; */
+}
+
+.reach-us1{
+    color: #ffff;
+    /* border: 2px solid blue; */
+    height: 55px;
+    display: flex;
+    gap: 10px;
+}
+
+.reach-us1 img{
+    width: 19.37px;
+    height: 22.54px;
+    line-height: 10px;
+
+}
+
+.reach-us2{
+    color: #ffff;
+    /* border: 2px solid blue; */
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.reach-us2 img{
+    width: 19.37px;
+    height: 22.54px;
+    line-height: 10px;
+
+}
+
+
+.reach-us3{
+    color: #ffff;
+    /* border: 2px solid blue; */
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.reach-us3 img{
+    width: 19.37px;
+    height: 22.54px;
+    line-height: 10px;
+
+}
+
+/* column1 end */
+
+/* column2 start */
+
+.footer1-column2{
+    /* border: 2px solid green; */
+    width: 300px;
+    height: 420px;
+}
+
+.footer1-column2-section1{
+    width: 300px;
+    height: 145px;
+    /* border: 2px solid blue; */
+}
+.footer1-column2-section1 h3{
+    color: #ED1C24;
+    font-family: Raleway;
+font-size: 15px;
+font-weight: 600;
+line-height: 23.48px;
+text-align: left;
+text-decoration-skip-ink: none;
+}
+
+.footer1-column2-section1 a{
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+.footer1-column2-section2{
+    width: 300px;
+    height: 275px;
+    /* border: 2px solid rgb(240, 0, 248); */
+}
+
+.footer1-column2-section2 h3{
+    color: #ED1C24;
+    font-family: Raleway;
+font-size: 15px;
+font-weight: 600;
+line-height: 23.48px;
+text-align: left;
+text-decoration-skip-ink: none;
+}
+
+.footer1-column2-section2 a{
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+
+
+
+/* column2 end */
+
+/* column3 start */
+
+.footer1-column3{
+    /* border: 2px solid green; */
+    width: 300px;
+    height: 420px;
+}
+
+.footer1-column3-section1{
+    width: 300px;
+    height: 200px;
+    /* border: 2px solid blue; */
+}
+.footer1-column3-section1 h3{
+    color: #ED1C24;
+    font-family: Raleway;
+font-size: 15px;
+font-weight: 600;
+line-height: 23.48px;
+text-align: left;
+text-decoration-skip-ink: none;
+}
+
+.footer1-column3-section1 a{
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+
+/* column3 end */
+
+/* column4 start */
+
+
+.footer1-column3-section2{
+    width: 210px;
+    height: 80px;
+    /* border: 2px solid blue; */
+}
+
+.footer1-column3-section2 h3{
+    color: #ED1C24;
+    font-family: Raleway;
+    font-size: 15px;
+font-weight: 600;
+line-height: 23.48px;
+text-align: left;
+text-decoration-skip-ink: none;
+}
+
+.follow-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    /* border: 2px solid red; */
+    gap: 40px;
+}
+
+.follow-us img{
+    
+    height: 20px;
+}
+
+.footer1-column3-section3{
+    margin-top: 30px;
+    width: 300px;
+height: 110px;
+/* border: 2px solid rgb(1, 4, 211); */
+text-align: center;  /* Center inline elements like button */
+position: relative;  /* Allows absolute positioning inside */
+
+}
+
+.footer1-column3-section3 button{
+    width: 146px;
+    height: 45px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ff512f, #dd2476); /* Premium gradient */
+    display: block;       /* Makes the button a block element */
+       /* Centers the button horizontally */
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(221, 36, 118, 0.3);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+.footer1-column3-section3 button a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.footer1-column3-section3 button:hover {
+    transform: translateY(-3px); /* Slight lift effect */
+    box-shadow: 0 8px 20px rgba(221, 36, 118, 0.5); /* Glowing shadow effect */
+    background: linear-gradient(135deg, #dd2476, #ff512f); /* Reverse gradient */
+}
+
+.footer1-column3-section3 button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 10%, transparent 50%);
+    transition: all 0.9s ease-out;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+}
+
+.payment{
+    margin-top: 20px;
+    /* border: 2px solid violet; */
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.payment img{
+    height: 35px;
+}
+
+.footer1-box-bottom{
+    /* border: 2px solid blueviolet; */
+    height: 40px;
+    width: 500px;
+}

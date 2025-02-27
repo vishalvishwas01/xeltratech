@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+
+.offerings-body{
+    height: static;
+    width: screen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 20px;
+}
+
+
+
+.offerings-box-header1{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40.32px;
+    letter-spacing: 0%;
+}
+
+@media (max-width:477px){
+    .offerings-box-header1{
+            width: 70%;
+    }
+}
+@media (max-width:405px){
+    .offerings-box-header1{
+            width: 80%;
+    }
+}
+@media (max-width:354px){
+    .offerings-box-header1{
+            width: 90%;
+    }
+}
+
+.offerings-box-header2{
+    width: 75%;
+    font-family: Raleway;
+font-weight: 500;
+font-size: 16px;
+line-height: 18.78px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+
+
+.offerings-box-content{
+    width: 90%;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+
+.offerings-box-content1{
+    width: 353px;
+    height: 382px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out 1s forwards;
+}
+.offerings-box-content1:hover{
+    border: 1px solid #ED1C24;
+}
+
+.offerings-box-content1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+.offerings-box-content1-header{
+    width: 100%;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.offerings-box-content1-header-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerings-box-content1-header-img img{
+    height: 80px;
+}
+.offerings-box-content1-header-text{
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    letter-spacing: 0%;
+}
+
+.offerings-box-content1-footer{
+    width: 100%;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offerings-box-content1-footer ul li{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    list-style:disc;
+}
+
+.offerings-box-content1-footer ul li a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease-in-out;
+}
+
+.offerings-box-content1-footer ul li a:hover{
+    color:#ED1C24
+}

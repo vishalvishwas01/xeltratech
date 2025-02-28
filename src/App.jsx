@@ -20,7 +20,7 @@ function App() {
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Servicewedo" element={<Servicewedo />} />
-        <Route path="/MobileUI" element={<MobileUI />} />
+        <Route path="/Servicewedo/MobileUI" element={<MobileUI />} />
         <Route path="/Servicewedo/HybridAppDevelopment" element={<HybridAppDevelopment />} />
       </Routes>
     </div>

@@ -105,12 +105,14 @@ align-items: center;
 .success-content1-top-image:hover{
     border: 2px solid red;
     transform: scale(1.05);
-    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);;
     
 }
 .success-content1-top-image img{
     width: 40%;
     height: 45%;
+    fill: #ED1C24;
+    stroke: #ED1C24;
 }
 
 

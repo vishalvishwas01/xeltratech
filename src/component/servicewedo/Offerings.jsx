@@ -20,7 +20,7 @@ function Offerings() {
           },
           {
               icon:webdesign,
-              head:"Website Design",
+              head:"Website & UI/UX Design",
               link1:"Graphic Design",
               link2:"Logo Design",
               link3:"React Design",
@@ -38,7 +38,7 @@ function Offerings() {
           },
           {
               icon:webdeveloper,
-              head:"Digital Marketing",
+              head:"Digital Marketing & Ads",
               link1:"Seo Consulting",
               link2:"PPC Advertising",
               link3:"Content Writing",
@@ -71,7 +71,7 @@ function Offerings() {
     <div class="offerings-box">
     <div class="offerings-box-header">
           <div className="offerings-box-header1 ">
-            WHAT SERVICES <span className="text-[#ED1C24]"> WE OFFER </span></div>
+            WHAT SERVICES <span> WE OFFER </span></div>
           <div className="offerings-box-header2">We provide responsive web design, software development, digital marketing, SEO, e-commerce solutions, app development, and secure IT services.</div>
         </div>
         <div className="offerings-box-content">

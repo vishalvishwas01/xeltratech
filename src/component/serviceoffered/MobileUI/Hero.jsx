@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react'
 import './Hero.css'
-import servicebanner from "../../images/servicewedo.png"
-
+import banner from "../HybridAppDevelopment/images/banner.jpg"
 
 function Hero() {
   return (
-  <div className='hero-body'>
-              <img src={servicebanner}/>
-              <div className='hero-box'>
-                <div className='hero-box-heading1'>Mobile App UI/Ux Design</div>
-                <div className='hero-box-heading2'>XELTRATECH is a leading is leading Mobile UI design company in (Noida) India, USA and UK for Android, IOS, Hybrid & others. View Our WorkGet A Quote</div>
-              </div>
-          </div>
+    <div>
+      <div className="hero-body">
+                    <img className="h-full w-full object-cover" src={banner}/>
+                    <div className=' hero-box'>
+                      <div className='hero-box-heading1'>Mobile App UI/UX Design</div>
+                    </div>
+                </div>
+    </div>
   )
 }
 
-export default Hero;
+export default Hero

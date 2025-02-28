@@ -299,12 +299,14 @@
     color:#FFFFFF;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .navmenu-latest ul li{
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     padding-inline: 20px;
     position: relative;
     transition: color 0.3s ease-in-out;
+    font-family: Roboto;
 }
 @media (max-width:1750px){
     .navmenu-latest ul li{

@@ -47,8 +47,8 @@ function solution() {
     <div className='solution-body'>
         <div className="solution-box">
             <div className="solution-box-header">
-                <div className='solution-box-header1'>Innovative <span className='text-[#ED1C24]'>Hybrid App</span> Solutions</div>
-                <div className='solution-box-header2'>Lorem ipsum dolor sit amet consectetur. Faucibus libero velit sit lorem felis justo est. Consequat arcu malesuada quis cursus augue integer ac risus. Sem arcu adipiscing adipiscing scelerisque i</div>
+                <div className='solution-box-header1'>Innovative <span>Hybrid App</span> Solutions</div>
+                <div className='solution-box-header2'>Cutting-edge hybrid app solutions that blend native performance with cross-platform flexibility, ensuring seamless user experiences, faster development, and cost-effective scalability. </div>
             </div>
             <div className="solution-box-line"></div>
 

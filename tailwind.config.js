@@ -8,6 +8,7 @@ module.exports = {
         },
       },
     },
-    content: ["./src/component/servicewedo/Offerings{js,jsx,ts,tsx}"],
+    content: ["./src/component/servicewedo/Offerings.{js,jsx,ts,tsx}"],
+
   };
   

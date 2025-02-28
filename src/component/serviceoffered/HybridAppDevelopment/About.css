@@ -79,7 +79,10 @@
     font-size: 32px;
     line-height: 37.57px;
     letter-spacing: 0%;
+}
 
+.About-content-heading span{
+    color:#ED1651;
 }
 
 .About-content-para1{
@@ -95,6 +98,18 @@
 }
 
 .About-content-para2{
+    width: 100%;
+    height: static;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25.06px;
+    letter-spacing: 5%;
+    text-align: justify;
+
+}
+
+.About-content-para3{
     width: 100%;
     height: static;
     font-family: Raleway;

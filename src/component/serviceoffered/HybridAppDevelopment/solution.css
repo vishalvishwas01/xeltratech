@@ -32,6 +32,9 @@
     letter-spacing: 0%;   
     text-align: center;
 }
+.solution-box-header1   span{
+    color: #ED1C24;
+}
 
 .solution-box-header2{
     font-family: Raleway;

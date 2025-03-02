@@ -8,6 +8,7 @@ import AboutUs from "./component/AboutUs/index";
 import Servicewedo from "./component/servicewedo/index";
 import MobileUI from "./component/serviceoffered/MobileUI/index";
 import HybridAppDevelopment from "./component/serviceoffered/HybridAppDevelopment/index";
+import "./index.css"
 
 function App() {
   const [count, setCount] = useState(0);

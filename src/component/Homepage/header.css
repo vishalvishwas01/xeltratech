@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 * {
     margin: 0;
@@ -299,7 +301,7 @@
     color:#FFFFFF;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .navmenu-latest ul li{
     display: inline-block;
     font-size: 20px;

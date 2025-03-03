@@ -5,6 +5,7 @@ import Hero from './Hero';
 import Footer1  from "../../Homepage/footer1";
 import AboutUI from "./AboutUI";
 import Services from "./Services"
+import Specialize from "./specialize";
 import Tools from "./Tools"
 
 
@@ -16,6 +17,7 @@ const MobileUI = () => {
       <Hero/>
       <AboutUI/>
       <Services/>
+      <Specialize/>
       <Tools/>
       <Footer1/>
     </div>

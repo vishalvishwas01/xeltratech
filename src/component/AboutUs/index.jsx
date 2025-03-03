@@ -17,7 +17,6 @@ const AboutUs = () => {
       <Topbar />
       <Topmenu />
       <Hero />
-        <Leads/>
       <Leads />
       <Story />
       <Values />

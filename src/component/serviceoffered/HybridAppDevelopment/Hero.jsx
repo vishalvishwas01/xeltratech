@@ -1,10 +1,6 @@
 import React from 'react'
 import './Hero.css'
 import banner from "./images/banner.jpg"
-
-
-
-
 function Hero() {
   return (
     <div>

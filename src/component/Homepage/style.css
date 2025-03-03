@@ -311,19 +311,10 @@ font-weight: 600;
 .app-development-head {
     width: 205px;
 height: 28px;
-top: 1393px;
-left: 259px;
-gap: 0px;
-opacity: 0px;
 font-family: Raleway;
 font-size: 22px;
-font-weight: 540;
-line-height: 28.18px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
-
+font-weight: 700 !important;
+line-height: 28px;
 text-align: center;
 margin-bottom: 15px;
 }

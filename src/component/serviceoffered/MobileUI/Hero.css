@@ -28,3 +28,8 @@
     color: #ffff;
     text-align: center;
 }
+
+
+.hero-body img {
+    filter: brightness(0.6); /* Reduce brightness to 70% */
+}

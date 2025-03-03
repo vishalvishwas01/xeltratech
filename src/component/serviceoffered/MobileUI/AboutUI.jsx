@@ -8,7 +8,7 @@ function AboutUI() {
         <div className='About-box'>
                     <div className='About-img'><img src={AboutUIimg}/></div>
                     <div className='About-content'>
-                        <div className='About-content-heading'><span>Hybrid</span> App Development</div>
+                        <div className='About-content-heading'>Mobile App <span>UI/UX Design</span>  development</div>
                         <div className='About-content-para1'>XeltraTech is a reputed mobile UI design company based in Noida, Delhi NCR, India, with a branch office in the USA. The company specializes in crafting visually appealing and highly functional user interfaces for mobile applications. With a strong focus on user experience, XeltraTech ensures seamless navigation, intuitive design, and engaging aesthetics that enhance app performance.</div>
 
                           <div className='About-content-para2'>There is no doubt that design plays a crucial role in the success of a website and mobile application. A well-structured UI not only attracts users but also improves usability. XeltraTech’s expert team combines creativity with technical expertise to deliver compelling and responsive designs tailored to client needs.</div>

@@ -8,6 +8,7 @@ import AboutUs from "./component/AboutUs/index";
 import Servicewedo from "./component/servicewedo/index";
 import MobileUI from "./component/serviceoffered/MobileUI/index";
 import HybridAppDevelopment from "./component/serviceoffered/HybridAppDevelopment/index";
+import LogoDesign from "./component/serviceoffered/LogoDesign/index";
 import "./index.css"
 
 function App() {
@@ -20,9 +21,11 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/AboutUs" element={<AboutUs />} />
+
         <Route path="/Servicewedo" element={<Servicewedo />} />
         <Route path="/Servicewedo/MobileUI" element={<MobileUI />} />
         <Route path="/Servicewedo/HybridAppDevelopment" element={<HybridAppDevelopment />} />
+        <Route path="/Servicewedo/LogoDesign" element={<LogoDesign />} />
       </Routes>
     </div>
   );

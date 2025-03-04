@@ -1,0 +1,15 @@
+.ChooseUsLogo-body{
+    width: screen;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    background-color: grey;
+}
+
+.ChooseUsLogo-box{
+    border: 2px solid red;
+    width: 70%;
+    height: 500px;
+}

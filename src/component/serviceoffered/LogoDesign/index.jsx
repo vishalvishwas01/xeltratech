@@ -4,9 +4,10 @@ import Topbar from "../../Homepage/Topbar";
 import Hero from "./hero";
 import About from "./About"
 import Aspect from "./Aspect"
+import ChooseUsLogo from "./ChooseUsLogo";
 import Footer1 from "../../Homepage/footer1";
 
-const HybridAppDevelopment = () => {
+const LogoDesign = () => {
   return (
     <div>
       <Topbar/>
@@ -14,9 +15,10 @@ const HybridAppDevelopment = () => {
       <Hero />
       <About />
       <Aspect />
+      <ChooseUsLogo />
       <Footer1/>
     </div>
   );
 };
 
-export default HybridAppDevelopment;
+export default LogoDesign;

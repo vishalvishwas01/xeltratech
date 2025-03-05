@@ -70,6 +70,9 @@
 @media (max-width: 450px){
     .About-content{width: 95%;}
 }
+@media (max-width: 450px){
+    .About-content{width: 90%;}
+}
 
 .About-content-heading{
     width: 100%;

@@ -5,6 +5,7 @@ import Hero from "./hero";
 import About from "./About"
 import Aspect from "./Aspect"
 import ChooseUsLogo from "./ChooseUsLogo";
+import CreateLogo from "./CreateLogo";
 import Footer1 from "../../Homepage/footer1";
 
 const LogoDesign = () => {
@@ -15,6 +16,7 @@ const LogoDesign = () => {
       <Hero />
       <About />
       <Aspect />
+      <CreateLogo/>
       <ChooseUsLogo />
       <Footer1/>
     </div>

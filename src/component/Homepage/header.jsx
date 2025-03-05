@@ -10,6 +10,8 @@ import banner from '../images/banner.jpg';
 import banner1 from '../images/banner1.jpg';
 import banner2 from '../images/banner2.jpg';
 
+import SplitText from '../SingleComponents/SplitText';
+
 // import "./style.css";
 
 function Header() {
@@ -43,7 +45,7 @@ function Header() {
                 <SwiperSlide className='banner-slider1'>
                     <img src={banner} alt="Banner" />
                     <div className='banner-slider1-content'>
-                        <div className='banner-slider1-content-text1'>Boosting Business with Tech</div>
+                        <div className='banner-slider1-content-text1'><SplitText/></div>
                         <div className='banner-slider1-content-text2'>Unlocking Your Business</div>
                         <div className='banner-slider1-content-text4'>Potential with Technology</div>
                         <div className='banner-slider1-content-text5'>Providing a comprehensive range of services, from cloud computing and cybersecurity to data analytics and software development.</div>

@@ -306,6 +306,7 @@ text-decoration-skip-ink: none;
     animation: fadeIn 1s ease-in-out 1s forwards;
     padding-top: 50px;
 margin-top: 20px;
+gap: 20px;
 }
 
 @media (max-width: 390px) {
@@ -332,6 +333,7 @@ margin-top: 20px;
     margin: 0;
     list-style: none;
     justify-content: center;
+   
     
 }
 @media (max-width: 660px) {
@@ -387,7 +389,7 @@ margin-top: 20px;
 height: 28px;
 font-family: Raleway;
 font-size: 16px;
-font-weight: 540;
+font-weight: 700 !important;
 line-height: 28.18px;
 text-align: left;
 text-underline-position: from-font;

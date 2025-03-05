@@ -1,10 +1,9 @@
 import { useSprings, animated } from '@react-spring/web';
 import { useEffect, useRef, useState } from 'react';
-import "../Homepage/header.css"
 
 const SplitText = ({
-  text = 'boosting business with tech',
-  className = 'banner-slider1-content-text1',
+  text = '',
+  className = '',
   delay = 100,
   animationFrom = { opacity: 0, transform: 'translate3d(0,40px,0)' },
   animationTo = { opacity: 1, transform: 'translate3d(0,0,0)' },

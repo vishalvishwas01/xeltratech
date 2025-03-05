@@ -813,6 +813,17 @@ color: #FFFFFF;
 margin-top: 20px;
 position: relative;
 }
+.banner-slider1-content-text2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-slider1-content-text2 span {
+    display: inline-block; /* Ensures letters animate properly */
+}
+
 
 
 @media (max-width:1200px){

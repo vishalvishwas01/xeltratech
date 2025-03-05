@@ -12,6 +12,7 @@ import ITC from './images/ITC.svg';
 import QA from './images/QA.svg';
 import UX from './images/UX1.svg';
 import web from './images/web.svg';
+import AnimatedContent from "../SingleComponents/AnimatedContent"
 
 
 const data =[
@@ -77,7 +78,9 @@ function Featuredservices() {
                             <div className='box-top-heading-para'>We Provide Great IT &
                             Business Solutions</div>
                         </div>
-                        <div className='box-top-button'><Link to="/Servicewedo">VIEW MORE SERVICES <img src={arrow}/> </Link> </div>
+                        
+                        <AnimatedContent><div className='box-top-button'><Link to="/Servicewedo">VIEW MORE SERVICES <img src={arrow} /></Link></div></AnimatedContent>
+
                     </div>
                     {/* heading section end */}
 

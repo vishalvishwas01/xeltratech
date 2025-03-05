@@ -18,6 +18,7 @@ body {
 .featuredservices-box{
     width: screen;
     margin-top: 50px;
+    height: static;
     
    
 }

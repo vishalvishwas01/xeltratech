@@ -920,20 +920,6 @@ position: relative;
     position: relative;
 }
 
-@media (max-width:1200px){
-    .banner-slider1-content-btn{
-       
-        
-    }
-}
-
-@media (max-width:800px){
-    .banner-slider1-content-btn{
-        
-    }
-}
-
-
 /* Hover Effect */
 .banner-slider1-content-btn:hover {
   

@@ -67,7 +67,7 @@ const Topmenu = () => {
                                             <ul>
                                                 <li><Link to="/Servicewedo/LogoDesign">Logo Design</Link></li>
                                                 <li><a href='#'>React Design</a></li>
-                                                <li><a href='#'>Graphic Design</a></li>
+                                                <li><a href='/Servicewedo/GraphicDesign'>Graphic Design</a></li>
                                                 <li><a href='#'>Custom Web Design</a></li>
                                                 <li><a href='#'>Responsive + Website Design</a></li>
                                             </ul>

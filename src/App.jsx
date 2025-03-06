@@ -10,6 +10,7 @@ import MobileUI from "./component/serviceoffered/MobileUI/index";
 import HybridAppDevelopment from "./component/serviceoffered/HybridAppDevelopment/index";
 import LogoDesign from "./component/serviceoffered/LogoDesign/index";
 import "./index.css"
+import GraphicDesign from "./component/serviceoffered/GraphicDesigning/index";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Servicewedo/MobileUI" element={<MobileUI />} />
         <Route path="/Servicewedo/HybridAppDevelopment" element={<HybridAppDevelopment />} />
         <Route path="/Servicewedo/LogoDesign" element={<LogoDesign />} />
+        <Route path="/Servicewedo/GraphicDesign" element={<GraphicDesign />} />
       </Routes>
     </div>
   );

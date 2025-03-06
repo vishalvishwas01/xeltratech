@@ -10,6 +10,7 @@ import MobileUI from "./component/serviceoffered/MobileUI/index";
 import HybridAppDevelopment from "./component/serviceoffered/HybridAppDevelopment/index";
 import LogoDesign from "./component/serviceoffered/LogoDesign/index";
 import "./index.css"
+import PackageMain from "./packagesMain";
 import GraphicDesign from "./component/serviceoffered/GraphicDesigning/index";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Servicewedo/MobileUI" element={<MobileUI />} />
         <Route path="/Servicewedo/HybridAppDevelopment" element={<HybridAppDevelopment />} />
         <Route path="/Servicewedo/LogoDesign" element={<LogoDesign />} />
+        <Route path="/PackageMain" element={<PackageMain/>} />
         <Route path="/Servicewedo/GraphicDesign" element={<GraphicDesign />} />
       </Routes>
     </div>

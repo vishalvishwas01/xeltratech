@@ -85,10 +85,17 @@
     font-family: Inter;
     font-size: 14px;
     font-size: 14px;
-
     font-size: 14px;
-
-    font-size: 14px;
+}
+@media (max-width:580px){
+    .topbar-contact{
+        font-size: 12px;
+    }
+}
+@media (max-width:500px){
+    .topbar-contact{
+        width: 220px;
+    }
 }
 
 

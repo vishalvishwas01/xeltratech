@@ -663,25 +663,20 @@ color: #333333;
 
 .qualified-box{
     border-color: #ED1C24;
-    border-width: 3px;
+    border-width: 2px;
     width: 257px;
-height: 243px;
-top: 2192px;
-left: 140px;
-gap: 0px;
-opacity: 0px;
-
+    height: 243px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .highly-recommended-box{
     border-color: #ED1C24;
-    border-width: 3px;
+    border-width: 2px;
     width: 257px;
-height: 243px;
-top: 2192px;
-left: 140px;
-gap: 0px;
-opacity: 0px;
+    height: 243px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
@@ -693,17 +688,10 @@ opacity: 0px;
 }
 
 .choose-body-why-box{
-   margin-top: 50px;
+    margin-top: 20px;
     width: screen;
-    
     overflow: hidden;
 }
-
-/* @media (max-width:1360px){
-    .choose-body-why-box{
-     margin-top: 400px;   
-    }
-} */
 
 
 .choose-body-why ul {

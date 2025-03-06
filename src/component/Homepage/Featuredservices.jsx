@@ -1,23 +1,52 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 import "./style.css";
 import ServicesCard from "../cards/ServicesCard";
 
-import app from '../images/app.svg';
-import IT from '../images/IT.svg';
-import ITC from '../images/ITC.svg';
-import QA from '../images/QA.svg';
-import UX from '../images/UX.svg';
-import web from '../images/web.svg';
+import arrow from "./images/arrow.png";
 
-const icons = {
-    "App Development": app,
-    "IT Development": IT,
-    "IT Solution": ITC,
-    "QA & Testing": QA,
-    "UX / UI Design": UX,
-    "Web Development": web
-};
+import App from './images/AppDevelopmentLogo.svg';
+import IT from './images/IT.svg';
+import ITC from './images/ITC.svg';
+import QA from './images/QA.svg';
+import UX from './images/UX1.svg';
+import web from './images/web.svg';
+import AnimatedContent from "../SingleComponents/AnimatedContent"
+
+
+const data =[
+    {
+        icon: App,
+        head: "App Development",
+        para: "We provide the best app development services in the market."
+    },
+    {
+        icon: IT,
+        head: "IT Development",
+        para: "We provide the best IT development services in the market."
+    },
+    {
+        icon: ITC,
+        head: "IT Solution",
+        para: "We provide the best IT solution services in the market."
+    },
+    {
+        icon: QA,
+        head: "QA & Testing",
+        para: "We provide the best IT solution services in the market."
+    },
+    {
+        icon: UX,
+        head: "UX / UI Design",
+        para: "We provide the best IT solution services in the market."
+    },
+    {
+        icon: web,
+        head: "Web Development",
+        para: "We provide the best IT solution services in the market."
+    },
+]
 
 function Featuredservices() {
     const [services, setServices] = useState([]);
@@ -39,25 +68,29 @@ function Featuredservices() {
     }, []);
 
     return (
-        <> {/* Wrapping inside a React Fragment */}
-            <div className="featuredservices-box">
-                <div className="featuredservices">
-                    <div></div>
-                    <h4 className="featuredservices-header">OUR FEATURED SERVICES</h4>
-                    <div className="featuredservices-header-text">
-                        <ul className="featuredservices-header-text1"><li>We Provide Great IT &</li></ul>
-                        <div className="featuredservices-header-inline">
-                            <span className="featuredservices-header-text1">Business Solutions</span>
-                            <a href="#" className="custom-button">VIEW MORE SERVICES</a>
+        <> 
+            <div className="featuredservices-body">
+                <div className="featuredservices-box">
+                    {/* heading section start */}
+                    <div className='box-top'>
+                        <div className='box-top-heading'>
+                            <div className='box-top-heading-header'>OUR FEATURED SERVICES</div>
+                            <div className='box-top-heading-para'>We Provide Great IT &
+                            Business Solutions</div>
                         </div>
-                    </div>
+                        
+                        <AnimatedContent><div className='box-top-button'><Link to="/Servicewedo">VIEW MORE SERVICES <img src={arrow} /></Link></div></AnimatedContent>
 
-                    <div className="featuredservices-header-menu">
-                        {services.map((service, index) => (
-                            <ServicesCard key={service._id} icon={icons[service.title]} head={service.title} para={service.description} />
-                        ))}
                     </div>
+                    {/* heading section end */}
+
+                    {/* main content section start */}
+                    <div className='box-bottom'>
+                    {data.map((data,index)=>(<ServicesCard key={index} icon={data.icon} head={data.head} para={data.para}/>))}
+                    </div>
+                    {/* main content section end */}
                 </div>
+              
             </div>
         </>
     );

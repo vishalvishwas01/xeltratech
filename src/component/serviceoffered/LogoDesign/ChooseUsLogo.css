@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 .ChooseUsLogo-body{
     width: screen;
     height: static;
@@ -5,19 +7,254 @@
     justify-content: center;
     align-items: center;
     padding-block: 40px;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
 }
 
 .ChooseUsLogo-box{
-    border: 2px solid red;
-    width: 70%;
-    height: 500px;
+    width: 100%;
+    height: static;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+
+/* box 1 start */
+.box1{
+    width: 650px;
+    height: static;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+@media (max-width:770px){
+    .box1{
+        width: 550px;
+    }
+}
+@media (max-width:600px){
+    .box1{
+        width: 450px;
+    }
+}
+@media (max-width:500px){
+    .box1{
+        width: 350px;
+    }
+}
+@media (max-width:400px){
+    .box1{
+        width: 300px;
+    }
+}
+
+.box1-content1{
+    height: 500px;
+    width: 550px;
+    background-color: #ED1C24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:770px){
+    .box1-content1{
+        width: 450px;
+        height: 450px;
+    }
+}
+@media (max-width:600px){
+    .box1-content1{
+        width: 350px;
+        height: 400px;
+    }
+}
+@media (max-width:500px){
+    .box1-content1{
+        width: 250px;
+        height: 300px;
+    }
+}
+@media (max-width:400px){
+    .box1-content1{
+        width: 200px;
+        height: 250px;
+    }
+}
+
+.box1-content1-image{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 150px;
+    position: absolute;
+}
+@media (max-width:770px){
+    .box1-content1-image{
+        width: 500px;
+        height: 350px;
+    }
+}
+@media (max-width:600px){
+    .box1-content1-image{
+        width: 400px;
+        height: 250px;
+    }
+}
+@media (max-width:500px){
+    .box1-content1-image{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media (max-width:400px){
+    .box1-content1-image{
+        width: 250px;
+        height: 150px;
+    }
+}
+/* box 1 end */
+
+/* box 2 start */
+.box2{
+    width: static;
+    height: static;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.box1{
-    width: 300px;
+.box2-header{
+    width: 400px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: clamp(2.5rem, calc(7vw + 1rem), 2.5rem);
+    line-height: 62.11px;
+    letter-spacing: 0%;
 }
+@media (max-width:1077px){
+    .box2-header{
+    width: 650px;
+    font-size: 35px;
+    }
+}
+@media (max-width:770px){
+    .box2-header{
+    width: 550px;
+    font-size: 30px;
+    }
+}
+@media (max-width:600px){
+    .box2-header{
+    width: 450px;
+    font-size: 38px;
+    }
+}
+@media (max-width:500px){
+    .box2-header{
+    width: 350px;
+    font-size: 36px;
+    }
+}
+@media (max-width:400px){
+    .box2-header{
+    width: 300px;
+    font-size: 30px;
+    }
+}
+.box2-header span{
+    color: #ED1C24;
+}
+
+.box2-content{
+    height: static;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box2-content1{
+    width: 100%;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+@media (max-width:1077px){
+    .box2-content1{
+        justify-content: start;
+    }
+}
+.box2-content1-numbers{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24.84px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #30303070;
+    height:100px;
+    width: static;
+}
+@media (max-width:500px){
+    .box2-content1-numbers{
+        height:120px;
+    }
+}
+@media (max-width:400px){
+    .box2-content1-numbers{
+        height:140px;
+    }
+}
+
+.box2-content1-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: static;
+    width: 350px;
+}
+@media (max-width:500px){
+    .box2-content1-box{
+        width: 300px;
+    }
+}
+@media (max-width:400px){
+    .box2-content1-box{
+        width: 250px;
+    }
+}
+
+.box2-content1-box-heading{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27.95px;
+    letter-spacing: 0%;
+    text-align:left;
+    color: #ED1C24;
+    width: 100%;
+}
+
+.box2-content1-box-para{
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.74px;
+    letter-spacing: 0%;
+    color: #303030;
+
+}
+
+
+/* box 2 end */

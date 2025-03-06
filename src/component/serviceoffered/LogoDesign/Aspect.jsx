@@ -28,7 +28,7 @@ function Aspect() {
 
             <div className='box-heading'>
                 <div className='header'><span>Important Aspect</span> Of Logo Desigining</div>
-                <div className='para'>Lorem ipsum dolor sit amet consectetur. Faucibus libero velit sit lorem felis justo est. Consequat arcu malesuada quis i</div>
+                <div className='para'>Mastering Logo Design: Essential Elements for Creating a Powerful, Memorable, and Timeless Brand Identity</div>
             </div>
             <div className='box-content'>
             {data.map((data,index)=>(<AspectCard key={index} head={data.head} para={data.para}/>))}

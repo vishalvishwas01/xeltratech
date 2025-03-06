@@ -51,7 +51,7 @@ const Topmenu = () => {
             <li><Link to="/Servicewedo">Services</Link>
             <div className='dropdown-services'>
                                 <ul>
-                                    <li>Mobile App Ui <img className='services-arrow1' src={arrow}/>
+                                    <li>Mobile App Ui
                                         <div className='dropdown-services-submenu1'>
                                             <ul>
                                                 <li><Link to="/Servicewedo/MobileUI">Mobile App UI</Link></li>
@@ -62,18 +62,18 @@ const Topmenu = () => {
                                             </ul>
                                         </div>
                                     </li>
-                                    <li>Website Design <img className='services-arrow2' src={arrow}/>
+                                    <li>Website Design
                                     <div className='dropdown-services-submenu1'>
                                             <ul>
                                                 <li><Link to="/Servicewedo/LogoDesign">Logo Design</Link></li>
                                                 <li><a href='#'>React Design</a></li>
-                                                <li><a href='#'>Graphic Design</a></li>
+                                                <li><a href='/Servicewedo/GraphicDesign'>Graphic Design</a></li>
                                                 <li><a href='#'>Custom Web Design</a></li>
                                                 <li><a href='#'>Responsive + Website Design</a></li>
                                             </ul>
                                     </div>
                                     </li>
-                                    <li>Digital Marketing <img className='services-arrow3' src={arrow}/>
+                                    <li>Digital Marketing
                                     <div className='dropdown-services-submenu1'>
                                             <ul>
                                                 <li><a href='#'>PHP Development</a></li>
@@ -84,7 +84,7 @@ const Topmenu = () => {
                                             </ul>
                                     </div>
                                     </li>
-                                    <li>Website Development <img className='services-arrow4' src={arrow}/>
+                                    <li>Website Development
                                     <div className='dropdown-services-submenu1'>
                                             <ul>
                                                 <li><a href='#'>SEO Consulting</a></li>

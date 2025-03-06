@@ -11,6 +11,7 @@ import HybridAppDevelopment from "./component/serviceoffered/HybridAppDevelopmen
 import LogoDesign from "./component/serviceoffered/LogoDesign/index";
 import "./index.css"
 import PackageMain from "./packagesMain";
+import GraphicDesign from "./component/serviceoffered/GraphicDesigning/index";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,6 +29,7 @@ function App() {
         <Route path="/Servicewedo/HybridAppDevelopment" element={<HybridAppDevelopment />} />
         <Route path="/Servicewedo/LogoDesign" element={<LogoDesign />} />
         <Route path="/PackageMain" element={<PackageMain/>} />
+        <Route path="/Servicewedo/GraphicDesign" element={<GraphicDesign />} />
       </Routes>
     </div>
   );

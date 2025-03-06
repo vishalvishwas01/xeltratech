@@ -400,6 +400,7 @@
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    line-height: 50px;
     
 }
 
@@ -812,6 +813,17 @@ color: #FFFFFF;
 margin-top: 20px;
 position: relative;
 }
+.banner-slider1-content-text2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-slider1-content-text2 span {
+    display: inline-block; /* Ensures letters animate properly */
+}
+
 
 
 @media (max-width:1200px){
@@ -919,20 +931,6 @@ position: relative;
     height: 58px;
     position: relative;
 }
-
-@media (max-width:1200px){
-    .banner-slider1-content-btn{
-       
-        
-    }
-}
-
-@media (max-width:800px){
-    .banner-slider1-content-btn{
-        
-    }
-}
-
 
 /* Hover Effect */
 .banner-slider1-content-btn:hover {

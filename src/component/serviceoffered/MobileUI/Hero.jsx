@@ -1,14 +1,14 @@
 import React from 'react'
 import './Hero.css'
 import banner from "./images/banner.svg"
-
+import SplitText from '../../SingleComponents/SplitText';
 function Hero() {
   return (
     <div>
       <div className="hero-body">
                     <img src={banner}/>
                     <div className=' hero-box'>
-                      <div className='hero-box-heading1'>Mobile App UI/UX Design</div>
+                      <SplitText text="Mobile App UI/UX Design" className="hero-box-heading1" delay={50}/>
                     </div>
                 </div>
     </div>

@@ -10,6 +10,8 @@ function OurServices() {
             <img src={frame12} />
           </div>
         </div>
+
+        
         <div className='services'>
             <div className='our-services'>
                 <h1>Our <span>Services</span></h1>

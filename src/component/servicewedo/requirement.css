@@ -1,0 +1,181 @@
+.requirement {
+    width: screen;
+    height: static;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 80px;
+}
+
+.your-requirement {
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.your-requirement h1 {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #303030;
+}
+
+/* Form container should be 80% width */
+.req-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin: 0 auto;  Centering the form */
+    /* padding: 20px; */
+}
+/* Row container for input fields */
+.row-req {
+    display: flex;
+    gap: 10px;
+    width: 100% ;
+    justify-content: space-between;
+}
+
+/* Input fields */
+.row-req input {
+    width: 100%;
+    padding-block: 40px; /* Adjusted to prevent excessive height */
+    border: none;
+    border-bottom: 1px solid #ED1C24 !important; /* Ensure red underline */
+    background: transparent;
+    font-size: 18px;
+    color: #303030;
+    outline: none;
+}
+
+/* Placeholder styling */
+.row-req input::placeholder {
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ED1C24;
+}
+
+/* Section title (Select Requirements) */
+.select-req {
+    width: 100%;
+    padding-block: 40px;
+}
+
+.select-req p {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ED1C24;
+}
+
+/* Checkbox Container - 3 Columns, 5 Rows */
+.checkbox-container-req {
+    display: flex;
+    justify-content: space-between; /* Ensures spacing between columns */
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Each column contains exactly 5 checkboxes */
+.checkbox-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between rows */
+    width: 30%; /* 3 equal columns */
+}
+
+/* Align text to the left and checkbox to the right */
+.checkbox-container-req label {
+    display: flex;
+    justify-content: space-between; /* Push checkbox to the end */
+    align-items: center;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #303030;
+    width: 100%;
+}
+
+/* Checkbox styling */
+.checkbox-container-req input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+
+
+.req-submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+button {
+    padding: 15px 60px;
+    background: #ED1C24;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #c4181f;
+}
+
+/* Responsive Fixes */
+@media screen and (max-width: 1024px) {
+    .req-form {
+        width: 90%;
+    }
+
+    .checkbox-container-req {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .checkbox-column {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .req-form {
+        width: 95%;
+    }
+
+    .row-req {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .checkbox-column {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .your-requirement h1 {
+        font-size: 32px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+}

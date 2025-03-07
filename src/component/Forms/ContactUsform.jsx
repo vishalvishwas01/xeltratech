@@ -49,7 +49,7 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit} className='form'>
     <div className='maindivcontact'>
-            <div id="namediv">
+            <div id="">
                 <label htmlFor="name">Name:</label><br />
                 <input type="text"  id='name' name="name" value={formData.name} onChange={handleChange} required /><br /><br />
             </div>

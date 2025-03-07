@@ -6,7 +6,7 @@ import development from '../images/development.svg'
 import discover from '../images/discover.svg'
 import quality from '../images/quality.png'
 import deployment from '../images/deployment.svg'
-import supoortm from '../images/supoort.png'
+import supoortm from '../../assets/fra.svg'
 
 function Developmentprocess() {
   return (

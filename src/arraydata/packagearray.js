@@ -1,8 +1,14 @@
-import analyitics from "../assets/analyitics.svg"
-import connection from "../assets/connection.svg"
+
 import group1 from "../assets/group1.svg"
-import group2 from "../assets/group2.svg"
 import group3 from "../assets/group3.svg"
+import SMO  from "../assets/SMO.svg"
+import PPC  from "../assets/PPC.svg"
+import ORM  from "../assets/ORM.svg"
+import staticimage  from "../assets/static.svg"
+import wordpress  from "../assets/wordpress.svg"
+import mobileapp  from "../assets/mobileapp.svg"
+import content  from "../assets/content.svg"
+
 const packages = [
     {
       image:group1,
@@ -11,45 +17,45 @@ const packages = [
       button: "View Plan"
     },
     {
-      image:group2,
+      image:SMO,
       title: "SMO Packages",
       description: "Enhance social media presence with strategic content, engagement, and audience growth for better branding.",
       button: "View Plan"
     },
     {
-      image:group3,
+      image:PPC,
       title: "PPC Packages India",
       description: "Drive targeted traffic with cost-effective pay-per-click campaigns, maximizing conversions and return on investment.",
       button: "View Plan"
     },
     {
-    image:group3,
+    image:ORM,
       title: "ORM Packages India",
       description: "Manage online reputation by monitoring, responding, and improving brand perception across digital platforms.",
       button: "View Plan"
     },
     {
-         image:group3,
+         image:staticimage,
       title: "Static Packages India",
-      description: "Get fast, secure, and SEO-friendly static websites tailored to your business needs and goals.",
+      description: "Get fast, secure, and SEO-friendly static websites tailored to your business needs and goals and improving brand perception.",
       button: "View Plan"
     },
     {
-       image:group3,
+       image:wordpress,
       title: "WordPress Development Plans",
       description: "Custom WordPress websites with responsive design, SEO optimization, and feature-rich functionalities.",
       button: "View Plan"
     },
     {
-        image:group3,
+        image:mobileapp,
       title: "Mobile App Packages",
       description: "Develop intuitive, high-performance mobile applications for Android and iOS platforms with seamless user experience.",
       button: "View Plan"
     },
     {
-        image:group3,
+        image:content,
       title: "Content Writing Packages",
-      description: "Engage audiences with high-quality, SEO-friendly content for blogs, websites, and marketing campaigns.",
+      description: "Engage audiences with high-quality, SEO-friendly content for blogs, websites, marketing campaigns and user-friendly experience",
       button: "View Plan"
     },
     {

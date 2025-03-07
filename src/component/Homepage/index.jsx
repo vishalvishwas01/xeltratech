@@ -21,7 +21,7 @@ function Homepage() {
     <div className="navbar1">
       <Topbar />
       <Topmenu />
-      {/* <Header /> */}
+      <Header />
       <Featuredservices />
       <Chooseus />
       {/* <Portfolio /> */}

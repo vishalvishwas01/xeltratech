@@ -1,12 +1,12 @@
 import './developmentprocess.css'
 import React from 'react'
-import UI from '../images/UI.svg'
-import prototype from '../images/prototype.svg'
-import development from '../images/development.svg'
-import discover from '../images/discover.svg'
-import quality from '../images/quality.png'
-import deployment from '../images/deployment.svg'
-import supoortm from '../../assets/fra.svg'
+import design from '../Homepage/images/design.svg'
+import prototype from '../Homepage/images/prototype.svg'
+import development from '../Homepage/images/deployment.svg'
+import discover from '../Homepage/images/data-discovery.svg'
+import quality from '../Homepage/images/coding.svg'
+import deployment from '../Homepage/images/deployment.svg'
+import supportm from '../Homepage/images/support.svg'
 
 function Developmentprocess() {
   return (
@@ -20,21 +20,36 @@ function Developmentprocess() {
                 </div>
                 <div className='dp-content-body'>
                         <div className='dp-content-box'>
-                            <div className='dp-content'>
-                                <ul>
-                                        <li className='UI'><img src={UI}/></li>
-                                        <li><img src={prototype}/></li>
-                                        <li><img src={development}/></li>
-                                        <li><img src={discover}/></li>
-                                        <li><img src={quality}/></li>
-                                        <li><img src={deployment}/></li>
-                                        <li style={{ width: "265px", height: "128px", marginTop: "9px" }}><img src={supoortm}/></li>
-
-
-                                </ul>
+                            <div className='dp-content-box1'>
+                                <div className='dp-content-box1-image'><img src={design}/></div>
+                                <div className='dp-content-box1-head'>UI/UX Designer</div>
                             </div>
+                            <div className='dp-content-box1'>
+                                <div className='dp-content-box1-image'><img src={prototype}/></div>
+                                <div className='dp-content-box1-head'>Prototype</div>
+                            </div>
+                            <div className='dp-content-box1'>
+                                <div className='dp-content-box1-image'><img src={development}/></div>
+                                <div className='dp-content-box1-head'>Development</div>
+                            </div>
+                            <div className='dp-content-box1'>
+                                <div className='dp-content-box1-image'><img src={discover}/></div>
+                                <div className='dp-content-box1-head'>Discover</div>
+                            </div>
+                            <div className='dp-content-box1'>
+                                <div className='dp-content-box1-image'><img src={quality}/></div>
+                                <div className='dp-content-box1-head'>Quality Assurance</div>
+                            </div>
+                            <div className='dp-content-box1'>
+                                <div className='dp-content-box1-image'><img src={deployment}/></div>
+                                <div className='dp-content-box1-head'>Deployment</div>
+                            </div>
+                            <div className='dp-content-box1'>
+                                <div className='dp-content-box1-image'><img src={supportm}/></div>
+                                <div className='dp-content-box1-head'>Support & Maintenance</div>
+                            </div>
+                            
                         </div>
-
                 </div>
     </div>
     </div>

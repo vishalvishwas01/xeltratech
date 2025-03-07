@@ -5,13 +5,13 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const OurPackage = () => {
   return (
-    <div className=' w-9/12 mx-auto p-2 pb-4'>
+    <div className=' w-9/12 mx-auto p-2 pb-4 flex flex-col gap-3'>
         <p className="flex justify-center font-['Plus_Jakarta_Sans'] font-bold text-[32px] leading-[40.32px] tracking-[0]  gap-1"
 ><span className='text-[#ED1C24]'>Our </span> Packages</p>
         <p className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] leading-[21.72px] tracking-[0] text-center text-[#303030CC]"
 >Our mobile app packages cater to businesses of all sizes, offering tailored solutions for Android, iOS, and hybrid apps. From basic apps with essential features to premium, fully customized solutions with advanced UI/UX, security, and integrations, we ensure seamless performance, user-friendly design, and ongoing support for optimal functionality.</p>
      
-     <div className=' flex flex-row  gap-[4rem] flex-wrap mx-auto'>
+     <div className=' flex flex-row justify-center gap-[4rem] flex-wrap w-9/12 mx-auto'>
            {
              packages.map((data,index)=>(
                 <div className=" shadow-md p-2 h-[353px]  rounded-[13px] border-[1px] flex flex-col gap-3"

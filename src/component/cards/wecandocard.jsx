@@ -1,7 +1,10 @@
 import React from 'react'
 import "../Homepage/wecando.css"
+import AnimatedContent from "../SingleComponents/AnimatedContent"
 function wecandocard({icon,head,para}) {
   return (
+
+    < AnimatedContent>
     <div className='ul'>
         <div className="li">
                                     <img className="app-icon" src={icon} alt="App Development"/>
@@ -9,6 +12,7 @@ function wecandocard({icon,head,para}) {
                                     <div className="app-development-para">{para}</div>
          </div>
     </div>
+    </AnimatedContent>
   )
 }
 

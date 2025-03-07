@@ -76,21 +76,6 @@ body {
     justify-content: center;
     width: 540px;
     height: 59px;
-    
-}
-
-@media (max-width: 1500px) {
-    .wecando-header1 h4 {
-   
-    }
-}
-
-@media (max-width: 1360px) {
-    .wecando-header1 h4 {
-        
-
-   
-    }
 }
 
 @media (max-width: 1060px) {
@@ -103,20 +88,7 @@ body {
     }
 }
 
-@media (max-width: 660px) {
-    .wecando-header1 h4 {
-       
-        
-    }
-}
 
-
-@media (max-width: 400px) {
-    .wecando-header1 h4 {
-        
-
-    }
-}
 
 @media (max-width: 390px) {
     .wecando-header1 h4 {

@@ -42,7 +42,7 @@
 .clients-list{
     width: 75%;
     height: 100px;
-    flex-wrap: wrap;border: 2px solid red;
+    flex-wrap: wrap;
 }
 
 .clients-list .ul{
@@ -51,7 +51,6 @@
     gap: 200px;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
 }
 
 

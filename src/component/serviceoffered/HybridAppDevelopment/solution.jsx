@@ -21,7 +21,7 @@ function solution() {
             icon1: images.seamlessapp,
             icon2: images.Crossplatformcolor,
             logo: images.logo3,
-            para: "Seamless App Migration & Enhancement",
+            para: "Multi-Platform App Development",
         },
         {
             icon1: images.uiux,

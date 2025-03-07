@@ -4,7 +4,7 @@ import Aboutlogo from "./images/about.jpg"
 
 function About() {
   return (
-    <div className='About-body'>
+    <div className='about-body'>
         <div className='About-box'>
                     <div className='About-img'><img src={Aboutlogo}/></div>
                     <div className='About-content'>

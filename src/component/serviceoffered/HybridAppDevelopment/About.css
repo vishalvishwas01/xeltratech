@@ -26,12 +26,11 @@
 /* image section start */
 .About-img{
     width: 700px;
-    height: static;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 0px;
 }
 
 @media (max-width: 750px){
@@ -88,17 +87,17 @@
     color:#ED1651;
 }
 
-.About-content-para1{
+.About-content-para1-hybrid{
     width: 100%;
     height: static;
     font-family: Raleway;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 25.06px;
+    font-size: 16px;
+    line-height: 30.06px;
     letter-spacing: 5%;
     text-align: justify;
-
 }
+
 
 .About-content-para2{
     width: 100%;

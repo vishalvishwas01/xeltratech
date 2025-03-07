@@ -9,6 +9,8 @@ import Topmenu from "../commonpage/Topmenu";
 import Hero from "./hero";
 import Topbar from "../Homepage/Topbar";
 
+import Clients from "../Homepage/clients"
+
 
 const AboutUs = () => {
   return (
@@ -21,6 +23,7 @@ const AboutUs = () => {
       <Story />
       <Values />
       {/* <Clients_about /> */}
+      <Clients/>
       <Footer_about />
     </div>
   );

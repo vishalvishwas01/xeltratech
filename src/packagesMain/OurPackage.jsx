@@ -14,7 +14,7 @@ const OurPackage = () => {
      <div className=' flex flex-row justify-center gap-[4rem] flex-wrap w-9/12 mx-auto'>
            {
              packages.map((data,index)=>(
-                <div className=" shadow-md p-2 h-[353px]  rounded-[13px] border-[1px] flex flex-col gap-3"
+                <div className=" shadow-md p-2 h-[353px] rounded-[13px] border-[1px] flex flex-col gap-3"
 >                     
                  <div className=' p-4 flex flex-col gap-2'>
                         <div className="w-[90px] h-[89px] top-[582px] left-[221px] rounded-[7px] bg-[#ED1C240F] flex items-center justify-center"

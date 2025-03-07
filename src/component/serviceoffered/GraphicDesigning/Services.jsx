@@ -7,17 +7,20 @@ import service3 from "./images/adobe.svg"
 import service4 from "./images/visual-css.svg"
 import service5 from "./images/id.svg"
 import service6 from "./images/icon-finder.svg"
+import AnimatedContent from "../../SingleComponents/AnimatedContent"
 
 function Services() {
   return (
     <div className='service-body'>
         <div className='service-box'>
+                <AnimatedContent>
             <div className='service-box1'>
                 <div className='service-box1-heading'>
                     <div className='service-box1-heading1'><p><span> Graphics</span> & </p>
                     <p>Web Design Services</p></div>
                     <div className='service-box1-heading2'>We offer professional graphics and web design services, creating visually stunning, user-friendly designs that enhance brand identity. From logos, brochures, and social media graphics to responsive websites, we ensure creativity, functionality, and seamless user experiences tailored to your business needs.</div>
                 </div>
+
 
                 <div className='service-box1-content1'>
                   <div className='content1-image'>
@@ -42,7 +45,10 @@ function Services() {
                     <p>Ideal for designing professional layouts, brochures, magazines, and digital publications with precise typography, grids, and advanced formatting features.</p>
                   </div>
                 </div>
+                
             </div>
+            </AnimatedContent>
+            <AnimatedContent>
 
             <div className='service-box2'>
 
@@ -94,6 +100,7 @@ function Services() {
                   </div>
                 </div>
             </div>
+            </AnimatedContent>
         </div>
       
     </div>

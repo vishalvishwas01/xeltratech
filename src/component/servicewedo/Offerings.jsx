@@ -5,6 +5,7 @@ import webdesign from "./images/logo-design.gif"
 import advertising from "./images/advertising.gif"
 import webdeveloper from "./images/web-developer.gif"
 import OfferingsCards from '../cards/OfferingsCards'
+import AnimatedContent from "../SingleComponents/AnimatedContent"
 
 function Offerings() {
 
@@ -12,17 +13,17 @@ function Offerings() {
           {
               icon:mobileapp,
               head:"Mobile App Development",
-              link1:"IOS Application Development",
-              link2:"Android Apps Development",
-              link3:"Windows Apps Development",
+              link1:"IOS Application Development", url1:"/AboutUs",
+              link2:"Android Apps Development", 
+              link3:"Hybrid App Development", url3:"/Servicewedo/HybridAppDevelopment",
               link4:"App Support And Maintenance",
-              link5:"App Marketing Services"
+              link5:"Mobile App UI/UX Design",  url5:"/Servicewedo/MobileUI",
           },
           {
               icon:webdesign,
               head:"Website & UI/UX Design",
-              link1:"Graphic Design",
-              link2:"Logo Design",
+              link1:"Graphic Design", url1:"/Servicewedo/GraphicDesign",
+              link2:"Logo Design", url2:"/Servicewedo/LogoDesign",
               link3:"React Design",
               link4:"custom Web Design",
               link5:"Responsive + Website Design"
@@ -74,16 +75,19 @@ function Offerings() {
             WHAT SERVICES <span> WE OFFER </span></div>
           <div className="offerings-box-header2">We provide responsive web design, software development, digital marketing, SEO, e-commerce solutions, app development, and secure IT services.</div>
         </div>
+        <AnimatedContent>
         <div className="offerings-box-content">
+        
 
         {
         data.map((data,index)=>(
-        <OfferingsCards key={index} icon={data.icon} head={data.head} link1={data.link1} 
+        <OfferingsCards key={index} icon={data.icon} head={data.head} link1={data.link1} url1={data.url1} url2={data.url2} url3={data.url3} url4={data.url4} url5={data.url5}
                              link2={data.link2} link3={data.link3} link4={data.link4} link5={data.link5}/>
             ))
           }
 
         </div>
+        </AnimatedContent>
         </div>
       </div>
       </>

@@ -3,50 +3,12 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import "./style.css";
 import ServicesCard from "../cards/ServicesCard";
-
 import arrow from "./images/arrow.png";
-
-import App from './images/AppDevelopmentLogo.svg';
-import IT from './images/IT.svg';
-import ITC from './images/ITC.svg';
-import QA from './images/QA.svg';
-import UX from './images/UX1.svg';
-import web from './images/web.svg';
 import AnimatedContent from "../SingleComponents/AnimatedContent"
+import data from '../../arraydata/FeaturedservicesArray';
 
 
-const data =[
-    {
-        icon: App,
-        head: "App Development",
-        para: "We provide the best app development services in the market."
-    },
-    {
-        icon: IT,
-        head: "IT Development",
-        para: "We provide the best IT development services in the market."
-    },
-    {
-        icon: ITC,
-        head: "IT Solution",
-        para: "We provide the best IT solution services in the market."
-    },
-    {
-        icon: QA,
-        head: "QA & Testing",
-        para: "We provide the best IT solution services in the market."
-    },
-    {
-        icon: UX,
-        head: "UX / UI Design",
-        para: "We provide the best IT solution services in the market."
-    },
-    {
-        icon: web,
-        head: "Web Development",
-        para: "We provide the best IT solution services in the market."
-    },
-]
+
 
 function Featuredservices() {
     const [services, setServices] = useState([]);

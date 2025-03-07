@@ -38,15 +38,15 @@ const Topmenu = () => {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/AboutUs">About Us</Link></li>
-            <li>Portfolio
-              <div className='dropdown-services'>
+            <li><Link to="/ContactUs">Portfolio</Link>
+              {/* <div className='dropdown-services'>
                 <ul>
                   <li>Android</li>
                   <li>IOS</li>
                   <li>Website</li>
                   <li>SEO</li>
                 </ul>
-              </div>
+              </div> */}
             </li>
             <li><Link to="/Servicewedo">Services</Link>
             <div className='dropdown-services'>
@@ -113,7 +113,7 @@ const Topmenu = () => {
                                 </ul>
                         </div>
                         </li>
-            <li>Careers</li>
+            <li><Link to="/ContactUs">Careers</Link></li>
             <li><Link to="/ContactUs">Contact Us</Link></li>
           </ul>
         </div>

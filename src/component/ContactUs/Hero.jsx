@@ -7,7 +7,6 @@ const Hero = () => {
            
            <div className='needdiv'>Need any Support ? </div>
            <div className='headingdiv'>Contact <span >Us</span>  </div>
-       
     </div>
   )
 }

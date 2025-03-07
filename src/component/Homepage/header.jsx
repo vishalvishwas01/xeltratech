@@ -10,6 +10,8 @@ import banner from '../images/banner.jpg';
 import banner1 from '../images/banner1.jpg';
 import banner2 from '../images/banner2.jpg';
 import SplitText from '../SingleComponents/SplitText';
+import AnimatedContent from "../SingleComponents/AnimatedContent"
+import { Link } from 'react-router-dom';
 
 function Header() {
     useEffect(() => {
@@ -32,9 +34,9 @@ function Header() {
                 <div className='banner-slider1-content-text5'>
                     Providing a comprehensive range of services, from cloud computing and cybersecurity to data analytics and software development.
                 </div>
-                <div className='banner-slider1-content-btn'><button>Get Started</button></div>
+              <AnimatedContent>  <div className='banner-slider1-content-btn'><button><Link to="/ContactUs">Get Started</Link>
+              </button></div> </AnimatedContent>
             </div>
-
             <Swiper
                 cssMode={true}
                 navigation={true}

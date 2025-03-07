@@ -6,6 +6,8 @@ import testing2 from "../HybridAppDevelopment/images/testing2.svg"
 import testing3 from "../HybridAppDevelopment/images/testing3.svg"
 import testing4 from "../HybridAppDevelopment/images/testing4.svg"
 
+import AnimatedContent from "../../SingleComponents/AnimatedContent"
+
 
 function success() {
   
@@ -16,6 +18,7 @@ function success() {
         <div className='success-header'>
           <div className='success-header1'><span>Your</span> Success, <span>Our</span> Priority</div>
         </div>
+        <AnimatedContent>
         <div className='success-content'>
 
         {/* content 1 start */}
@@ -65,6 +68,7 @@ function success() {
           {/* content 4 start */}
 
         </div>
+          </AnimatedContent>
       </div>
     </div>
   )

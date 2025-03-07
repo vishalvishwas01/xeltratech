@@ -68,7 +68,7 @@ text-decoration-skip-ink: none;
 
 .dp-content-body{
     width: screen;
-    display: flex;
+    display: flex ;
     justify-content: center;
     padding-inline: 40px;
 }
@@ -86,6 +86,17 @@ text-decoration-skip-ink: none;
     background-color: white;
     padding-block: 100px;
     padding-inline: 40px;
+    margin: 0 auto;
+}
+
+/* @media (max-width:1600px){
+    .dp-content-box{
+        width: 90%;
+    }
+} */
+
+.dp-content-box{
+    width: 90%;
 }
 
 .dp-content-box1{

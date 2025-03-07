@@ -6,7 +6,6 @@
 * {
     margin: 0;
     padding: 0;
-    
    
 }
 
@@ -630,6 +629,9 @@
     color: white;
     z-index: 10;
     max-width: 80%;
+    height: static;
+   
+   
    
 }
 
@@ -814,7 +816,7 @@ margin-bottom: 40px;
 
 .banner-slider1-content-text2{
     width: 587px;
-height: 63px;
+height: static;
 font-family: Plus Jakarta Sans;
 font-size: 50px;
 font-weight: 700;
@@ -855,7 +857,7 @@ position: relative;
 @media (max-width:800px){
     .banner-slider1-content-text2{
         font-size: 30px;
-        line-height: 80px;
+        line-height: 40px;
     }
 }
 
@@ -871,11 +873,13 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #FFFFFF;
 position: relative;
+
 }
 
 @media (max-width:1200px){
     .banner-slider1-content-text4{
         font-size: 35px;
+        width: 100%;
     }
 }
 
@@ -887,13 +891,13 @@ position: relative;
 
 @media (max-width:800px){
     .banner-slider1-content-text4{
-        font-size: 28px;
+        font-size: 24px;
     }
 }
 
 .banner-slider1-content-text5{
-    width: 500px;
-    height: 24px;
+    width: 50%;
+    height: static;
 font-family: Montserrat;
 font-size: 18px;
 font-weight: 400;
@@ -909,21 +913,18 @@ position: relative;
 @media (max-width:1200px){
     .banner-slider1-content-text5{
         font-size: 15px;
+        width: 80%;
     }
 }
-
-@media (max-width:1024px){
-    .banner-slider1-content-text5{
-        width: 420px;
-        
-    }
-}
-
 @media (max-width:800px){
     .banner-slider1-content-text5{
-        width: 400px;
+        font-size: 15px;
+        width: 100%;
     }
 }
+
+
+
 
 
 /* Button Styling */
@@ -943,6 +944,22 @@ position: relative;
     width: 190px;
     height: 58px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-slider1-content-btn button a{
+    text-decoration: none;
+    color: white;
+}
+.banner-slider1-content-btn button a:hover{
+    text-decoration: none;
+    color: white;
+}
+.banner-slider1-content-btn button:hover{
+    background-color: transparent !important;
+    text-decoration: none;
+    color: white;
 }
 
 /* Hover Effect */

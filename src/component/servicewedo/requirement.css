@@ -117,7 +117,7 @@
     width: 100%;
 }
 
-button {
+.req-submit-btn button {
     padding: 15px 60px;
     background: #ED1C24;
     color: white;

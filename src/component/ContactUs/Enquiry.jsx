@@ -8,7 +8,7 @@ const Enquiry = () => {
        <div className='  flex lg:flex-row flex-col gap-4 items-center justify-center overflow-hidden '>
              <div className='   '>
                  <div className='font-inter text-base leading-[36px] tracking-normal'>Contact Info</div>
-                 <div className="font-inter font-bold text-[38px] max-w-[70%] leading-[62.4px] tracking-normal">We are always 
+                 <div className="font-inter font-bold text-[38px] max-w-[65%] leading-[62.4px] tracking-normal">We are always 
                  happy to assist you</div>
              </div>
              <div className='  flex flex-col gap-2'>
@@ -19,16 +19,18 @@ const Enquiry = () => {
 Monday - friday 8am 
 
 to 9pm EST</div>
+
              </div>
-             <div className='  flex flex-col gap-2 '>
-                   <div className="font-inter font-semibold text-[22px] leading-[26.63px] tracking-normal">Number</div>
-                   <div className="font-inter font-semibold text-[22px] leading-[26.63px] tracking-normal">+91-1234567890</div>
-                   <div className="font-inter font-semibold text-[22px] leading-[26.63px] tracking-normal max-w-[90%]">Assistance hours:<br></br>
+            
+             <div className='  flex flex-col gap-2'>
+                    <div className="font-inter font-semibold text-[22px] leading-[26.63px] tracking-normal">Number</div>
+                    <div className="font-inter font-semibold text-[22px] leading-[26.63px] tracking-normal underline">+91 7999840152</div>
+                    <div className="font-inter font-semibold text-[22px] leading-[26.63px] tracking-normal max-w-[60%]">Assistance hours:
 
 Monday - friday 8am 
 
 to 9pm EST</div>
-             </div>
+</div>
          
        </div>
     </div>

@@ -11,11 +11,9 @@ const GetStarted = () => {
             <div className='  p-3'>
                 <div className='header1div'>
                     <div className='headdiv'>Get started</div>
-                    <button className='button'>
-                        Contact Us
-                    </button>
+                   
                 </div>
-                <div className='getdiv'>Get in touch with us.
+                <div className='getdiv'>Get in <span className=' text-red-600'>touch</span> with us.
                 We’re here to assist you.</div>
              
                     {/*input */}

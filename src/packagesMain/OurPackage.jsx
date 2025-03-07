@@ -27,9 +27,9 @@ const OurPackage = () => {
                         <p className="w-[235px] text-[#303030]  font-['Raleway'] font-medium text-[14px] leading-[21.7px] tracking-[0]"
 >{data.description}</p>
                           
-                          <button className=' flex items-center justify-center  gap-2  w-[134px] h-[38px]  rounded-[4px] bg-[#ED1C24] text-white
+                          <button className=' flex items-center justify-center  gap-2 w-fit  p-2  rounded-[4px] bg-[#ED1C24] text-white
 '>
-                                 <p className=' text-center mt-2'>View Plan</p>
+                                 <div className=' text-center '>View Plan</div>
                                  <FaArrowRight/>
                           </button>
                         </div>

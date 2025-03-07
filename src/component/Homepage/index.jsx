@@ -24,7 +24,7 @@ function Homepage() {
       <Header />
       <Featuredservices />
       <Chooseus />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Wecando />
       <Development />
       <Testimonials />

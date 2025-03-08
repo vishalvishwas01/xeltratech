@@ -42,14 +42,12 @@ const Topmenu = () => {
 
         <div className='nav Services'><Link to="/Servicewedo">Services</Link>
           <div className='services-dropdown'>
-            <div className='services-dropdown1'>Mobile App Development
-              
-            </div>
+            <div className='services-dropdown1-top'>Mobile App Development</div>
             <div className='services-dropdown1'>Website & UI/UX Design</div>
             <div className='services-dropdown1'>Website Development</div>
             <div className='services-dropdown1'>Digital Marketing & Ads</div>
             <div className='services-dropdown1'>Mobile Platform migration</div>
-            <div className='services-dropdown1'>Mobile App Development</div>
+            <div className='services-dropdown1-bottom'>Mobile App Development</div>
           </div>
         </div>
 
